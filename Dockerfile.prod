@@ -1,0 +1,19 @@
+FROM node:9.11.2-alpine as build-env
+MAINTAINER Yann Piquet <yann.piquet@epitech.eu>
+
+RUN mkdir /app
+WORKDIR /app
+
+COPY src/package.json .
+RUN yarn
+
+COPY src/public ./public
+COPY src/src ./src
+
+RUN yarn build
+RUN ls -lR /app/build
+
+FROM nginx:1.15.0
+
+COPY --from=build-env /app/build/ /usr/share/nginx/html/
+RUN ls -lR /usr/share/nginx/html/
