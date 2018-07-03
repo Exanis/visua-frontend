@@ -1,4 +1,4 @@
-FROM node:9.11.2-alpine as build-env
+FROM node:9.11.2-alpine
 MAINTAINER Yann Piquet <yann.piquet@epitech.eu>
 
 RUN mkdir /app
