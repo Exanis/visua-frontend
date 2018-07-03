@@ -11,9 +11,7 @@ COPY src/public ./public
 COPY src/src ./src
 
 RUN yarn build
-RUN ls -lR /app/build
 
 FROM nginx:1.15.0
 
 COPY --from=build-env /app/build/ /usr/share/nginx/html/
-RUN ls -lR /usr/share/nginx/html/
