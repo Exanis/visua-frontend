@@ -1,0 +1,759 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Login /> should render Login properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Login
+    classes={
+        Object {
+            "innerForm": "test-innerForm",
+          }
+    }
+    navigationActions={
+        Object {
+            "redirect": [Function],
+          }
+    }
+    user={
+        Object {
+            "login": Object {
+              "error": false,
+              "success": false,
+            },
+          }
+    }
+    userActions={
+        Object {
+            "logUserIn": [Function],
+            "onUserLoginClear": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Invalid username or password"
+                    id="login.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="You are now connected!"
+                    id="login.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <div
+          className={undefined}
+>
+          <WithStyles(Typography)
+                    variant="title"
+          >
+                    <FormattedMessage
+                              defaultMessage="VISUA"
+                              id="login.title"
+                              values={Object {}}
+                    />
+          </WithStyles(Typography)>
+          <WithStyles(Typography)
+                    variant="subheading"
+          >
+                    <FormattedMessage
+                              defaultMessage="Please log in to continue"
+                              id="login.header"
+                              values={Object {}}
+                    />
+          </WithStyles(Typography)>
+          <InjectIntl(LoginFormBase)
+                    className="test-innerForm"
+                    onLogin={[Function]}
+          />
+</div>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Invalid username or password"
+            id="login.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Invalid username or password",
+            "id": "login.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="You are now connected!"
+            id="login.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "You are now connected!",
+            "id": "login.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              variant="title"
+>
+              <FormattedMessage
+                            defaultMessage="VISUA"
+                            id="login.title"
+                            values={Object {}}
+              />
+</WithStyles(Typography)>,
+            <WithStyles(Typography)
+              variant="subheading"
+>
+              <FormattedMessage
+                            defaultMessage="Please log in to continue"
+                            id="login.header"
+                            values={Object {}}
+              />
+</WithStyles(Typography)>,
+            <InjectIntl(LoginFormBase)
+              className="test-innerForm"
+              onLogin={[Function]}
+/>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="VISUA"
+                id="login.title"
+                values={Object {}}
+/>,
+              "variant": "title",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "VISUA",
+                "id": "login.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Please log in to continue"
+                id="login.header"
+                values={Object {}}
+/>,
+              "variant": "subheading",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Please log in to continue",
+                "id": "login.header",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "className": "test-innerForm",
+              "onLogin": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Invalid username or password"
+                        id="login.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="You are now connected!"
+                        id="login.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <div
+            className={undefined}
+>
+            <WithStyles(Typography)
+                        variant="title"
+            >
+                        <FormattedMessage
+                                    defaultMessage="VISUA"
+                                    id="login.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(Typography)>
+            <WithStyles(Typography)
+                        variant="subheading"
+            >
+                        <FormattedMessage
+                                    defaultMessage="Please log in to continue"
+                                    id="login.header"
+                                    values={Object {}}
+                        />
+            </WithStyles(Typography)>
+            <InjectIntl(LoginFormBase)
+                        className="test-innerForm"
+                        onLogin={[Function]}
+            />
+</div>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Invalid username or password"
+              id="login.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Invalid username or password",
+              "id": "login.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="You are now connected!"
+              id="login.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "You are now connected!",
+              "id": "login.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                variant="title"
+>
+                <FormattedMessage
+                                defaultMessage="VISUA"
+                                id="login.title"
+                                values={Object {}}
+                />
+</WithStyles(Typography)>,
+              <WithStyles(Typography)
+                variant="subheading"
+>
+                <FormattedMessage
+                                defaultMessage="Please log in to continue"
+                                id="login.header"
+                                values={Object {}}
+                />
+</WithStyles(Typography)>,
+              <InjectIntl(LoginFormBase)
+                className="test-innerForm"
+                onLogin={[Function]}
+/>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="VISUA"
+                  id="login.title"
+                  values={Object {}}
+/>,
+                "variant": "title",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "VISUA",
+                  "id": "login.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Please log in to continue"
+                  id="login.header"
+                  values={Object {}}
+/>,
+                "variant": "subheading",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Please log in to continue",
+                  "id": "login.header",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "className": "test-innerForm",
+                "onLogin": [Function],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<Login /> should render LoginForm properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginFormBase
+    intl={
+        Object {
+            "formatMessage": [Function],
+            "onLogin": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TextField
+          label={undefined}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          value=""
+/>,
+        <TextField
+          label={undefined}
+          onChange={[Function]}
+          required={false}
+          select={false}
+          type="password"
+          value=""
+/>,
+        <br />,
+        <WithStyles(Button)
+          onClick={[Function]}
+          variant="contained"
+>
+          <FormattedMessage
+                    defaultMessage="Connection"
+                    id="toolbar.login.send"
+                    values={Object {}}
+          />
+</WithStyles(Button)>,
+      ],
+      "className": undefined,
+      "onSubmit": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "label": undefined,
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "label": undefined,
+          "onChange": [Function],
+          "required": false,
+          "select": false,
+          "type": "password",
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": "br",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Connection"
+            id="toolbar.login.send"
+            values={Object {}}
+/>,
+          "onClick": [Function],
+          "variant": "contained",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Connection",
+            "id": "toolbar.login.send",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "form",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TextField
+            label={undefined}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            value=""
+/>,
+          <TextField
+            label={undefined}
+            onChange={[Function]}
+            required={false}
+            select={false}
+            type="password"
+            value=""
+/>,
+          <br />,
+          <WithStyles(Button)
+            onClick={[Function]}
+            variant="contained"
+>
+            <FormattedMessage
+                        defaultMessage="Connection"
+                        id="toolbar.login.send"
+                        values={Object {}}
+            />
+</WithStyles(Button)>,
+        ],
+        "className": undefined,
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "label": undefined,
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "label": undefined,
+            "onChange": [Function],
+            "required": false,
+            "select": false,
+            "type": "password",
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": "br",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Connection"
+              id="toolbar.login.send"
+              values={Object {}}
+/>,
+            "onClick": [Function],
+            "variant": "contained",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Connection",
+              "id": "toolbar.login.send",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "form",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users Actions getCurrentUserData 1`] = `
+Object {
+  "type": "user.request",
+}
+`;
+
+exports[`Users Actions logUserIn 1`] = `
+Object {
+  "type": "user.login",
+  "user": Object {
+    "password": "password",
+    "username": "username",
+  },
+}
+`;
+
+exports[`Users Actions logUserOut 1`] = `
+Object {
+  "type": "user.logout",
+}
+`;
+
+exports[`Users Actions onUpdateUserError 1`] = `
+Object {
+  "error": "error",
+  "type": "user.update.error",
+}
+`;
+
+exports[`Users Actions onUpdateUserSuccess 1`] = `
+Object {
+  "type": "user.update.success",
+}
+`;
+
+exports[`Users Actions onUserData 1`] = `
+Object {
+  "type": "user.result",
+  "user": "test-user",
+}
+`;
+
+exports[`Users Actions onUserError 1`] = `
+Object {
+  "type": "user.error",
+}
+`;
+
+exports[`Users Actions onUserLoginClear 1`] = `
+Object {
+  "type": "user.login.clear",
+}
+`;
+
+exports[`Users Actions onUserLoginError 1`] = `
+Object {
+  "type": "user.login.error",
+}
+`;
+
+exports[`Users Actions onUserLoginSuccess 1`] = `
+Object {
+  "type": "user.login.success",
+}
+`;
+
+exports[`Users Actions resetCreateUserState 1`] = `
+Object {
+  "type": "user.update.clear",
+}
+`;
+
+exports[`Users Actions updateUser 1`] = `
+Object {
+  "email": "test-email",
+  "firstName": "test-firstname",
+  "lastName": "test-lastname",
+  "password": "test-password",
+  "type": "user.update",
+  "uuid": "test-uuid",
+}
+`;

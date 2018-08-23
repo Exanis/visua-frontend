@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users Actions createUser 1`] = `
+Object {
+  "email": "test-email",
+  "firstName": "test-firstname",
+  "isStaff": false,
+  "lastName": "test-lastname",
+  "page": 1,
+  "password": "test-password",
+  "search": "test",
+  "type": "users.create",
+  "username": "test-username",
+}
+`;
+
+exports[`Users Actions deleteUser 1`] = `
+Object {
+  "page": 1,
+  "search": "test",
+  "type": "users.delete",
+  "uuid": "test-uuid",
+}
+`;
+
+exports[`Users Actions editUser 1`] = `
+Object {
+  "email": "test-email",
+  "firstName": "test-firstname",
+  "isStaff": false,
+  "lastName": "test-lastname",
+  "page": 1,
+  "password": "test-password",
+  "search": "test",
+  "type": "users.edit",
+  "username": "test-username",
+  "uuid": "test-uuid",
+}
+`;
+
+exports[`Users Actions getUsersList 1`] = `
+Object {
+  "page": 1,
+  "search": "test",
+  "type": "users.list",
+}
+`;
+
+exports[`Users Actions onCreateUserError 1`] = `
+Object {
+  "errors": Array [
+    "error",
+  ],
+  "type": "users.create.error",
+}
+`;
+
+exports[`Users Actions onCreateUserSuccess 1`] = `
+Object {
+  "type": "users.create.ok",
+}
+`;
+
+exports[`Users Actions onDeleteUserSuccess 1`] = `
+Object {
+  "type": "users.delete.ok",
+}
+`;
+
+exports[`Users Actions onEditUserError 1`] = `
+Object {
+  "errors": Array [
+    "error",
+  ],
+  "type": "users.edit.error",
+}
+`;
+
+exports[`Users Actions onEditUserSuccess 1`] = `
+Object {
+  "type": "users.edit.ok",
+}
+`;
+
+exports[`Users Actions onUsersList 1`] = `
+Object {
+  "type": "users.onList",
+  "users": Array [
+    "first",
+    "second",
+  ],
+}
+`;
+
+exports[`Users Actions resetCreateUserState 1`] = `
+Object {
+  "type": "users.create.reset",
+}
+`;
+
+exports[`Users Actions resetDeleteUserState 1`] = `
+Object {
+  "type": "users.delete.reset",
+}
+`;
+
+exports[`Users Actions resetEditUserState 1`] = `
+Object {
+  "type": "users.edit.reset",
+}
+`;

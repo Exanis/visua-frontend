@@ -1,0 +1,2167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ItemList /> should render ItemList properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItemsListBase
+    classes={Object {}}
+    count={135}
+    itemToPrimary={[Function]}
+    itemToSecondary={[Function]}
+    items={
+        Array [
+            Object {
+              "uuid": 1,
+            },
+            Object {
+              "uuid": 2,
+            },
+            Object {
+              "uuid": 3,
+            },
+            Object {
+              "uuid": 4,
+            },
+            Object {
+              "uuid": 5,
+            },
+            Object {
+              "uuid": 6,
+            },
+          ]
+    }
+    loadItems={[Function]}
+    loaded={true}
+    newButtonText="test-new-button"
+    onNewButton={[Function]}
+    title="test-title"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+>
+          <WithStyles(Typography)
+                    className={undefined}
+                    variant="title"
+          >
+                    test-title
+          </WithStyles(Typography)>
+          <TextField
+                    InputProps={
+                              Object {
+                                        "startAdornment": <WithStyles(InputAdornment)
+                                          position="start"
+                              >
+                                          <pure(Search) />
+                              </WithStyles(InputAdornment)>,
+                                      }
+                    }
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+          />
+          <WithStyles(Button)
+                    className={undefined}
+                    onClick={[Function]}
+                    variant="contained"
+          >
+                    <pure(AddCircle)
+                              className={undefined}
+                    />
+                    test-new-button
+          </WithStyles(Button)>
+</div>,
+        <WithStyles(List)>
+          <WithStyles(ListItem)
+                    button={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="test-primary"
+                              secondary="test-secondary"
+                    />
+                    <WithStyles(ListItemSecondaryAction)>
+                              
+                    </WithStyles(ListItemSecondaryAction)>
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+                    button={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="test-primary"
+                              secondary="test-secondary"
+                    />
+                    <WithStyles(ListItemSecondaryAction)>
+                              
+                    </WithStyles(ListItemSecondaryAction)>
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+                    button={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="test-primary"
+                              secondary="test-secondary"
+                    />
+                    <WithStyles(ListItemSecondaryAction)>
+                              
+                    </WithStyles(ListItemSecondaryAction)>
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+                    button={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="test-primary"
+                              secondary="test-secondary"
+                    />
+                    <WithStyles(ListItemSecondaryAction)>
+                              
+                    </WithStyles(ListItemSecondaryAction)>
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+                    button={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="test-primary"
+                              secondary="test-secondary"
+                    />
+                    <WithStyles(ListItemSecondaryAction)>
+                              
+                    </WithStyles(ListItemSecondaryAction)>
+          </WithStyles(ListItem)>
+          <WithStyles(ListItem)
+                    button={true}
+          >
+                    <WithStyles(ListItemText)
+                              primary="test-primary"
+                              secondary="test-secondary"
+                    />
+                    <WithStyles(ListItemSecondaryAction)>
+                              
+                    </WithStyles(ListItemSecondaryAction)>
+          </WithStyles(ListItem)>
+</WithStyles(List)>,
+        <WithStyles(PaginationBase)
+          count={135}
+          onClick={[Function]}
+/>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              className={undefined}
+              variant="title"
+>
+              test-title
+</WithStyles(Typography)>,
+            <TextField
+              InputProps={
+                            Object {
+                                          "startAdornment": <WithStyles(InputAdornment)
+                                            position="start"
+                            >
+                                            <pure(Search) />
+                            </WithStyles(InputAdornment)>,
+                                        }
+              }
+              onChange={[Function]}
+              required={false}
+              select={false}
+              value=""
+/>,
+            <WithStyles(Button)
+              className={undefined}
+              onClick={[Function]}
+              variant="contained"
+>
+              <pure(AddCircle)
+                            className={undefined}
+              />
+              test-new-button
+</WithStyles(Button)>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "test-title",
+              "className": undefined,
+              "variant": "title",
+            },
+            "ref": null,
+            "rendered": "test-title",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "InputProps": Object {
+                "startAdornment": <WithStyles(InputAdornment)
+                  position="start"
+>
+                  <pure(Search) />
+</WithStyles(InputAdornment)>,
+              },
+              "onChange": [Function],
+              "required": false,
+              "select": false,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <pure(AddCircle)
+                  className={undefined}
+/>,
+                "test-new-button",
+              ],
+              "className": undefined,
+              "onClick": [Function],
+              "variant": "contained",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "test-new-button",
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(ListItem)
+              button={true}
+>
+              <WithStyles(ListItemText)
+                            primary="test-primary"
+                            secondary="test-secondary"
+              />
+              <WithStyles(ListItemSecondaryAction)>
+                            
+              </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              button={true}
+>
+              <WithStyles(ListItemText)
+                            primary="test-primary"
+                            secondary="test-secondary"
+              />
+              <WithStyles(ListItemSecondaryAction)>
+                            
+              </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              button={true}
+>
+              <WithStyles(ListItemText)
+                            primary="test-primary"
+                            secondary="test-secondary"
+              />
+              <WithStyles(ListItemSecondaryAction)>
+                            
+              </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              button={true}
+>
+              <WithStyles(ListItemText)
+                            primary="test-primary"
+                            secondary="test-secondary"
+              />
+              <WithStyles(ListItemSecondaryAction)>
+                            
+              </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              button={true}
+>
+              <WithStyles(ListItemText)
+                            primary="test-primary"
+                            secondary="test-secondary"
+              />
+              <WithStyles(ListItemSecondaryAction)>
+                            
+              </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+            <WithStyles(ListItem)
+              button={true}
+>
+              <WithStyles(ListItemText)
+                            primary="test-primary"
+                            secondary="test-secondary"
+              />
+              <WithStyles(ListItemSecondaryAction)>
+                            
+              </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="test-primary"
+                  secondary="test-secondary"
+/>,
+                <WithStyles(ListItemSecondaryAction)>
+                  
+</WithStyles(ListItemSecondaryAction)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "test-primary",
+                  "secondary": "test-secondary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="test-primary"
+                  secondary="test-secondary"
+/>,
+                <WithStyles(ListItemSecondaryAction)>
+                  
+</WithStyles(ListItemSecondaryAction)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "test-primary",
+                  "secondary": "test-secondary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="test-primary"
+                  secondary="test-secondary"
+/>,
+                <WithStyles(ListItemSecondaryAction)>
+                  
+</WithStyles(ListItemSecondaryAction)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "test-primary",
+                  "secondary": "test-secondary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="test-primary"
+                  secondary="test-secondary"
+/>,
+                <WithStyles(ListItemSecondaryAction)>
+                  
+</WithStyles(ListItemSecondaryAction)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "test-primary",
+                  "secondary": "test-secondary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="test-primary"
+                  secondary="test-secondary"
+/>,
+                <WithStyles(ListItemSecondaryAction)>
+                  
+</WithStyles(ListItemSecondaryAction)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "test-primary",
+                  "secondary": "test-secondary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "class",
+            "props": Object {
+              "button": true,
+              "children": Array [
+                <WithStyles(ListItemText)
+                  primary="test-primary"
+                  secondary="test-secondary"
+/>,
+                <WithStyles(ListItemSecondaryAction)>
+                  
+</WithStyles(ListItemSecondaryAction)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "primary": "test-primary",
+                  "secondary": "test-secondary",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    false,
+                    false,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  false,
+                  false,
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": 135,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+>
+            <WithStyles(Typography)
+                        className={undefined}
+                        variant="title"
+            >
+                        test-title
+            </WithStyles(Typography)>
+            <TextField
+                        InputProps={
+                                    Object {
+                                                "startAdornment": <WithStyles(InputAdornment)
+                                                  position="start"
+                                    >
+                                                  <pure(Search) />
+                                    </WithStyles(InputAdornment)>,
+                                              }
+                        }
+                        onChange={[Function]}
+                        required={false}
+                        select={false}
+                        value=""
+            />
+            <WithStyles(Button)
+                        className={undefined}
+                        onClick={[Function]}
+                        variant="contained"
+            >
+                        <pure(AddCircle)
+                                    className={undefined}
+                        />
+                        test-new-button
+            </WithStyles(Button)>
+</div>,
+          <WithStyles(List)>
+            <WithStyles(ListItem)
+                        button={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="test-primary"
+                                    secondary="test-secondary"
+                        />
+                        <WithStyles(ListItemSecondaryAction)>
+                                    
+                        </WithStyles(ListItemSecondaryAction)>
+            </WithStyles(ListItem)>
+            <WithStyles(ListItem)
+                        button={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="test-primary"
+                                    secondary="test-secondary"
+                        />
+                        <WithStyles(ListItemSecondaryAction)>
+                                    
+                        </WithStyles(ListItemSecondaryAction)>
+            </WithStyles(ListItem)>
+            <WithStyles(ListItem)
+                        button={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="test-primary"
+                                    secondary="test-secondary"
+                        />
+                        <WithStyles(ListItemSecondaryAction)>
+                                    
+                        </WithStyles(ListItemSecondaryAction)>
+            </WithStyles(ListItem)>
+            <WithStyles(ListItem)
+                        button={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="test-primary"
+                                    secondary="test-secondary"
+                        />
+                        <WithStyles(ListItemSecondaryAction)>
+                                    
+                        </WithStyles(ListItemSecondaryAction)>
+            </WithStyles(ListItem)>
+            <WithStyles(ListItem)
+                        button={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="test-primary"
+                                    secondary="test-secondary"
+                        />
+                        <WithStyles(ListItemSecondaryAction)>
+                                    
+                        </WithStyles(ListItemSecondaryAction)>
+            </WithStyles(ListItem)>
+            <WithStyles(ListItem)
+                        button={true}
+            >
+                        <WithStyles(ListItemText)
+                                    primary="test-primary"
+                                    secondary="test-secondary"
+                        />
+                        <WithStyles(ListItemSecondaryAction)>
+                                    
+                        </WithStyles(ListItemSecondaryAction)>
+            </WithStyles(ListItem)>
+</WithStyles(List)>,
+          <WithStyles(PaginationBase)
+            count={135}
+            onClick={[Function]}
+/>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                className={undefined}
+                variant="title"
+>
+                test-title
+</WithStyles(Typography)>,
+              <TextField
+                InputProps={
+                                Object {
+                                                "startAdornment": <WithStyles(InputAdornment)
+                                                  position="start"
+                                >
+                                                  <pure(Search) />
+                                </WithStyles(InputAdornment)>,
+                                              }
+                }
+                onChange={[Function]}
+                required={false}
+                select={false}
+                value=""
+/>,
+              <WithStyles(Button)
+                className={undefined}
+                onClick={[Function]}
+                variant="contained"
+>
+                <pure(AddCircle)
+                                className={undefined}
+                />
+                test-new-button
+</WithStyles(Button)>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test-title",
+                "className": undefined,
+                "variant": "title",
+              },
+              "ref": null,
+              "rendered": "test-title",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "InputProps": Object {
+                  "startAdornment": <WithStyles(InputAdornment)
+                    position="start"
+>
+                    <pure(Search) />
+</WithStyles(InputAdornment)>,
+                },
+                "onChange": [Function],
+                "required": false,
+                "select": false,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <pure(AddCircle)
+                    className={undefined}
+/>,
+                  "test-new-button",
+                ],
+                "className": undefined,
+                "onClick": [Function],
+                "variant": "contained",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "test-new-button",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(ListItem)
+                button={true}
+>
+                <WithStyles(ListItemText)
+                                primary="test-primary"
+                                secondary="test-secondary"
+                />
+                <WithStyles(ListItemSecondaryAction)>
+                                
+                </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                button={true}
+>
+                <WithStyles(ListItemText)
+                                primary="test-primary"
+                                secondary="test-secondary"
+                />
+                <WithStyles(ListItemSecondaryAction)>
+                                
+                </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                button={true}
+>
+                <WithStyles(ListItemText)
+                                primary="test-primary"
+                                secondary="test-secondary"
+                />
+                <WithStyles(ListItemSecondaryAction)>
+                                
+                </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                button={true}
+>
+                <WithStyles(ListItemText)
+                                primary="test-primary"
+                                secondary="test-secondary"
+                />
+                <WithStyles(ListItemSecondaryAction)>
+                                
+                </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                button={true}
+>
+                <WithStyles(ListItemText)
+                                primary="test-primary"
+                                secondary="test-secondary"
+                />
+                <WithStyles(ListItemSecondaryAction)>
+                                
+                </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+              <WithStyles(ListItem)
+                button={true}
+>
+                <WithStyles(ListItemText)
+                                primary="test-primary"
+                                secondary="test-secondary"
+                />
+                <WithStyles(ListItemSecondaryAction)>
+                                
+                </WithStyles(ListItemSecondaryAction)>
+</WithStyles(ListItem)>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": Array [
+                  <WithStyles(ListItemText)
+                    primary="test-primary"
+                    secondary="test-secondary"
+/>,
+                  <WithStyles(ListItemSecondaryAction)>
+                    
+</WithStyles(ListItemSecondaryAction)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "primary": "test-primary",
+                    "secondary": "test-secondary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": Array [
+                  <WithStyles(ListItemText)
+                    primary="test-primary"
+                    secondary="test-secondary"
+/>,
+                  <WithStyles(ListItemSecondaryAction)>
+                    
+</WithStyles(ListItemSecondaryAction)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "primary": "test-primary",
+                    "secondary": "test-secondary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": Array [
+                  <WithStyles(ListItemText)
+                    primary="test-primary"
+                    secondary="test-secondary"
+/>,
+                  <WithStyles(ListItemSecondaryAction)>
+                    
+</WithStyles(ListItemSecondaryAction)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "primary": "test-primary",
+                    "secondary": "test-secondary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": Array [
+                  <WithStyles(ListItemText)
+                    primary="test-primary"
+                    secondary="test-secondary"
+/>,
+                  <WithStyles(ListItemSecondaryAction)>
+                    
+</WithStyles(ListItemSecondaryAction)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "primary": "test-primary",
+                    "secondary": "test-secondary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": Array [
+                  <WithStyles(ListItemText)
+                    primary="test-primary"
+                    secondary="test-secondary"
+/>,
+                  <WithStyles(ListItemSecondaryAction)>
+                    
+</WithStyles(ListItemSecondaryAction)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "primary": "test-primary",
+                    "secondary": "test-secondary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "class",
+              "props": Object {
+                "button": true,
+                "children": Array [
+                  <WithStyles(ListItemText)
+                    primary="test-primary"
+                    secondary="test-secondary"
+/>,
+                  <WithStyles(ListItemSecondaryAction)>
+                    
+</WithStyles(ListItemSecondaryAction)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "primary": "test-primary",
+                    "secondary": "test-secondary",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": Array [
+                      false,
+                      false,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    false,
+                    false,
+                  ],
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": 135,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<ItemList /> should render ItemList properly when not loaded 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItemsListBase
+    classes={Object {}}
+    count={135}
+    itemToPrimary={[Function]}
+    itemToSecondary={[Function]}
+    items={
+        Array [
+            Object {
+              "uuid": 1,
+            },
+            Object {
+              "uuid": 2,
+            },
+            Object {
+              "uuid": 3,
+            },
+            Object {
+              "uuid": 4,
+            },
+            Object {
+              "uuid": 5,
+            },
+            Object {
+              "uuid": 6,
+            },
+          ]
+    }
+    loadItems={[Function]}
+    loaded={false}
+    newButtonText="test-new-button"
+    onNewButton={[Function]}
+    title="test-title"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+>
+          <WithStyles(Typography)
+                    className={undefined}
+                    variant="title"
+          >
+                    test-title
+          </WithStyles(Typography)>
+          <TextField
+                    InputProps={
+                              Object {
+                                        "startAdornment": <WithStyles(InputAdornment)
+                                          position="start"
+                              >
+                                          <pure(Search) />
+                              </WithStyles(InputAdornment)>,
+                                      }
+                    }
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+          />
+          <WithStyles(Button)
+                    className={undefined}
+                    onClick={[Function]}
+                    variant="contained"
+          >
+                    <pure(AddCircle)
+                              className={undefined}
+                    />
+                    test-new-button
+          </WithStyles(Button)>
+</div>,
+        <WithStyles(CircularProgress) />,
+        <WithStyles(PaginationBase)
+          count={135}
+          onClick={[Function]}
+/>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              className={undefined}
+              variant="title"
+>
+              test-title
+</WithStyles(Typography)>,
+            <TextField
+              InputProps={
+                            Object {
+                                          "startAdornment": <WithStyles(InputAdornment)
+                                            position="start"
+                            >
+                                            <pure(Search) />
+                            </WithStyles(InputAdornment)>,
+                                        }
+              }
+              onChange={[Function]}
+              required={false}
+              select={false}
+              value=""
+/>,
+            <WithStyles(Button)
+              className={undefined}
+              onClick={[Function]}
+              variant="contained"
+>
+              <pure(AddCircle)
+                            className={undefined}
+              />
+              test-new-button
+</WithStyles(Button)>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "test-title",
+              "className": undefined,
+              "variant": "title",
+            },
+            "ref": null,
+            "rendered": "test-title",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "InputProps": Object {
+                "startAdornment": <WithStyles(InputAdornment)
+                  position="start"
+>
+                  <pure(Search) />
+</WithStyles(InputAdornment)>,
+              },
+              "onChange": [Function],
+              "required": false,
+              "select": false,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <pure(AddCircle)
+                  className={undefined}
+/>,
+                "test-new-button",
+              ],
+              "className": undefined,
+              "onClick": [Function],
+              "variant": "contained",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "test-new-button",
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": 135,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+>
+            <WithStyles(Typography)
+                        className={undefined}
+                        variant="title"
+            >
+                        test-title
+            </WithStyles(Typography)>
+            <TextField
+                        InputProps={
+                                    Object {
+                                                "startAdornment": <WithStyles(InputAdornment)
+                                                  position="start"
+                                    >
+                                                  <pure(Search) />
+                                    </WithStyles(InputAdornment)>,
+                                              }
+                        }
+                        onChange={[Function]}
+                        required={false}
+                        select={false}
+                        value=""
+            />
+            <WithStyles(Button)
+                        className={undefined}
+                        onClick={[Function]}
+                        variant="contained"
+            >
+                        <pure(AddCircle)
+                                    className={undefined}
+                        />
+                        test-new-button
+            </WithStyles(Button)>
+</div>,
+          <WithStyles(CircularProgress) />,
+          <WithStyles(PaginationBase)
+            count={135}
+            onClick={[Function]}
+/>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                className={undefined}
+                variant="title"
+>
+                test-title
+</WithStyles(Typography)>,
+              <TextField
+                InputProps={
+                                Object {
+                                                "startAdornment": <WithStyles(InputAdornment)
+                                                  position="start"
+                                >
+                                                  <pure(Search) />
+                                </WithStyles(InputAdornment)>,
+                                              }
+                }
+                onChange={[Function]}
+                required={false}
+                select={false}
+                value=""
+/>,
+              <WithStyles(Button)
+                className={undefined}
+                onClick={[Function]}
+                variant="contained"
+>
+                <pure(AddCircle)
+                                className={undefined}
+                />
+                test-new-button
+</WithStyles(Button)>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test-title",
+                "className": undefined,
+                "variant": "title",
+              },
+              "ref": null,
+              "rendered": "test-title",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "InputProps": Object {
+                  "startAdornment": <WithStyles(InputAdornment)
+                    position="start"
+>
+                    <pure(Search) />
+</WithStyles(InputAdornment)>,
+                },
+                "onChange": [Function],
+                "required": false,
+                "select": false,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <pure(AddCircle)
+                    className={undefined}
+/>,
+                  "test-new-button",
+                ],
+                "className": undefined,
+                "onClick": [Function],
+                "variant": "contained",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "test-new-button",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": 135,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<ItemList /> should render ItemList properly when there is no items 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ItemsListBase
+    classes={Object {}}
+    count={0}
+    itemToPrimary={[Function]}
+    itemToSecondary={[Function]}
+    items={Array []}
+    loadItems={[Function]}
+    loaded={true}
+    newButtonText="test-new-button"
+    onNewButton={[Function]}
+    title="test-title"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className={undefined}
+>
+          <WithStyles(Typography)
+                    className={undefined}
+                    variant="title"
+          >
+                    test-title
+          </WithStyles(Typography)>
+          <TextField
+                    InputProps={
+                              Object {
+                                        "startAdornment": <WithStyles(InputAdornment)
+                                          position="start"
+                              >
+                                          <pure(Search) />
+                              </WithStyles(InputAdornment)>,
+                                      }
+                    }
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+          />
+          <WithStyles(Button)
+                    className={undefined}
+                    onClick={[Function]}
+                    variant="contained"
+          >
+                    <pure(AddCircle)
+                              className={undefined}
+                    />
+                    test-new-button
+          </WithStyles(Button)>
+</div>,
+        <WithStyles(List)>
+          
+</WithStyles(List)>,
+        <WithStyles(PaginationBase)
+          count={0}
+          onClick={[Function]}
+/>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <WithStyles(Typography)
+              className={undefined}
+              variant="title"
+>
+              test-title
+</WithStyles(Typography)>,
+            <TextField
+              InputProps={
+                            Object {
+                                          "startAdornment": <WithStyles(InputAdornment)
+                                            position="start"
+                            >
+                                            <pure(Search) />
+                            </WithStyles(InputAdornment)>,
+                                        }
+              }
+              onChange={[Function]}
+              required={false}
+              select={false}
+              value=""
+/>,
+            <WithStyles(Button)
+              className={undefined}
+              onClick={[Function]}
+              variant="contained"
+>
+              <pure(AddCircle)
+                            className={undefined}
+              />
+              test-new-button
+</WithStyles(Button)>,
+          ],
+          "className": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": "test-title",
+              "className": undefined,
+              "variant": "title",
+            },
+            "ref": null,
+            "rendered": "test-title",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "InputProps": Object {
+                "startAdornment": <WithStyles(InputAdornment)
+                  position="start"
+>
+                  <pure(Search) />
+</WithStyles(InputAdornment)>,
+              },
+              "onChange": [Function],
+              "required": false,
+              "select": false,
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <pure(AddCircle)
+                  className={undefined}
+/>,
+                "test-new-button",
+              ],
+              "className": undefined,
+              "onClick": [Function],
+              "variant": "contained",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "test-new-button",
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [],
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": 0,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className={undefined}
+>
+            <WithStyles(Typography)
+                        className={undefined}
+                        variant="title"
+            >
+                        test-title
+            </WithStyles(Typography)>
+            <TextField
+                        InputProps={
+                                    Object {
+                                                "startAdornment": <WithStyles(InputAdornment)
+                                                  position="start"
+                                    >
+                                                  <pure(Search) />
+                                    </WithStyles(InputAdornment)>,
+                                              }
+                        }
+                        onChange={[Function]}
+                        required={false}
+                        select={false}
+                        value=""
+            />
+            <WithStyles(Button)
+                        className={undefined}
+                        onClick={[Function]}
+                        variant="contained"
+            >
+                        <pure(AddCircle)
+                                    className={undefined}
+                        />
+                        test-new-button
+            </WithStyles(Button)>
+</div>,
+          <WithStyles(List)>
+            
+</WithStyles(List)>,
+          <WithStyles(PaginationBase)
+            count={0}
+            onClick={[Function]}
+/>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <WithStyles(Typography)
+                className={undefined}
+                variant="title"
+>
+                test-title
+</WithStyles(Typography)>,
+              <TextField
+                InputProps={
+                                Object {
+                                                "startAdornment": <WithStyles(InputAdornment)
+                                                  position="start"
+                                >
+                                                  <pure(Search) />
+                                </WithStyles(InputAdornment)>,
+                                              }
+                }
+                onChange={[Function]}
+                required={false}
+                select={false}
+                value=""
+/>,
+              <WithStyles(Button)
+                className={undefined}
+                onClick={[Function]}
+                variant="contained"
+>
+                <pure(AddCircle)
+                                className={undefined}
+                />
+                test-new-button
+</WithStyles(Button)>,
+            ],
+            "className": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": "test-title",
+                "className": undefined,
+                "variant": "title",
+              },
+              "ref": null,
+              "rendered": "test-title",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "InputProps": Object {
+                  "startAdornment": <WithStyles(InputAdornment)
+                    position="start"
+>
+                    <pure(Search) />
+</WithStyles(InputAdornment)>,
+                },
+                "onChange": [Function],
+                "required": false,
+                "select": false,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <pure(AddCircle)
+                    className={undefined}
+/>,
+                  "test-new-button",
+                ],
+                "className": undefined,
+                "onClick": [Function],
+                "variant": "contained",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": undefined,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "test-new-button",
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [],
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": 0,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

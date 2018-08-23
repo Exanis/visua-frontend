@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pipeline.title",
+    "defaultMessage": "Pipelines"
+  },
+  {
+    "id": "pipeline.new",
+    "defaultMessage": "Create pipeline"
+  },
+  {
+    "id": "pipeline.field.name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "pipeline.errors.name.required",
+    "defaultMessage": "Name is required"
+  },
+  {
+    "id": "pipeline.errors.name.exists",
+    "defaultMessage": "A pipeline already exists with this name"
+  },
+  {
+    "id": "pipeline.errors.name.tooLong",
+    "defaultMessage": "Name too long (max 255 chars)"
+  },
+  {
+    "id": "pipeline.errors.name.tooShort",
+    "defaultMessage": "Name too short (min 2 chars)"
+  },
+  {
+    "id": "pipeline.newPipeline.createText",
+    "defaultMessage": "Create a new pipeline"
+  },
+  {
+    "id": "pipeline.newPipeline.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "pipeline.newPipeline.create",
+    "defaultMessage": "Create pipeline"
+  },
+  {
+    "id": "pipeline.creation.error",
+    "defaultMessage": "Error while creating pipeline; please check the form."
+  },
+  {
+    "id": "pipeline.creation.success",
+    "defaultMessage": "Pipeline created."
+  }
+]

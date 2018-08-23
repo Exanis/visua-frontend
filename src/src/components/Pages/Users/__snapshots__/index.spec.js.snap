@@ -1,0 +1,3392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Users /> should render Users properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Users
+    classes={Object {}}
+    intl={
+        Object {
+            "formatMessage": [Function],
+          }
+    }
+    users={
+        Object {
+            "creation": Object {
+              "haveResult": false,
+              "success": false,
+            },
+            "deletion": Object {
+              "haveResult": false,
+            },
+            "edition": Object {
+              "haveResult": false,
+              "success": false,
+            },
+          }
+    }
+    usersActions={
+        Object {
+            "createUser": [Function],
+            "editUser": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Error while creating user; please check the form."
+                    id="users.creation.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="User created."
+                    id="users.creation.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Create new user"
+                              id="users.newUser.title"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)
+                    className={undefined}
+          >
+                    <WithStyles(DialogContentText)>
+                              <FormattedMessage
+                                        defaultMessage="Fill the following form to create a new user"
+                                        id="users.newUser.createText"
+                                        values={Object {}}
+                              />
+                    </WithStyles(DialogContentText)>
+                    <TextField
+                              error={false}
+                              label="users.field.username"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.firstName"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.lastName"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.email"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              type="email"
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.password"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              type="password"
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.checkPassword"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              type="password"
+                              value=""
+                    />
+                    <VisuaSwitch
+                              checked={false}
+                              label="users.field.isStaff"
+                              onChange={[Function]}
+                    />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="users.newUser.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Create user"
+                                        id="users.newUser.create"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Error while updating user; please check the form."
+                    id="users.edition.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="User updated."
+                    id="users.edition.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Update user"
+                              id="users.editUser.title"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)
+                    className={undefined}
+          >
+                    <WithStyles(DialogContentText)>
+                              <FormattedMessage
+                                        defaultMessage="Fill the following form to update the user"
+                                        id="users.editUser.createText"
+                                        values={Object {}}
+                              />
+                    </WithStyles(DialogContentText)>
+                    <TextField
+                              error={false}
+                              label="users.field.username"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.firstName"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.lastName"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.email"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              type="email"
+                              value=""
+                    />
+                    <br />
+                    <WithStyles(Typography)
+                              variant="caption"
+                    >
+                              <FormattedMessage
+                                        defaultMessage="To keep the user's current password, leave those fields empty."
+                                        id="users.editUser.passwordNotice"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Typography)>
+                    <TextField
+                              error={false}
+                              label="users.field.password"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              type="password"
+                              value=""
+                    />
+                    <TextField
+                              error={false}
+                              label="users.field.checkPassword"
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              type="password"
+                              value=""
+                    />
+                    <VisuaSwitch
+                              checked={false}
+                              label="users.field.isStaff"
+                              onChange={[Function]}
+                    />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="users.editUser.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Update user"
+                                        id="users.editUser.update"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="User deleted."
+                    id="users.deletion.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Are you sure?"
+                              id="users.deletion.title"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+                    <WithStyles(DialogContentText)>
+                              <FormattedMessage
+                                        defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                                        id="users.deletion.text"
+                                        values={Object {}}
+                              />
+                    </WithStyles(DialogContentText)>
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="users.deletion.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Delete"
+                                        id="users.deletion.confirm"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <WithStyles(ItemsListBase)
+          count={undefined}
+          itemToPrimary={[Function]}
+          itemToSecondary={[Function]}
+          items={undefined}
+          loadItems={[Function]}
+          loaded={undefined}
+          newButtonText="users.new"
+          onDeleteItem={[Function]}
+          onEditItem={[Function]}
+          onNewButton={[Function]}
+          title="users.title"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Error while creating user; please check the form."
+            id="users.creation.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Error while creating user; please check the form.",
+            "id": "users.creation.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="User created."
+            id="users.creation.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "User created.",
+            "id": "users.creation.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Create new user"
+                            id="users.newUser.title"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)
+              className={undefined}
+>
+              <WithStyles(DialogContentText)>
+                            <FormattedMessage
+                                          defaultMessage="Fill the following form to create a new user"
+                                          id="users.newUser.createText"
+                                          values={Object {}}
+                            />
+              </WithStyles(DialogContentText)>
+              <TextField
+                            error={false}
+                            label="users.field.username"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.firstName"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.lastName"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.email"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            type="email"
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.password"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            type="password"
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.checkPassword"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            type="password"
+                            value=""
+              />
+              <VisuaSwitch
+                            checked={false}
+                            label="users.field.isStaff"
+                            onChange={[Function]}
+              />
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="users.newUser.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Create user"
+                                          id="users.newUser.create"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Create new user"
+                id="users.newUser.title"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Create new user",
+                "id": "users.newUser.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(DialogContentText)>
+                  <FormattedMessage
+                                    defaultMessage="Fill the following form to create a new user"
+                                    id="users.newUser.createText"
+                                    values={Object {}}
+                  />
+</WithStyles(DialogContentText)>,
+                <TextField
+                  error={false}
+                  label="users.field.username"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.firstName"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.lastName"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.email"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="email"
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.password"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="password"
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.checkPassword"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="password"
+                  value=""
+/>,
+                <VisuaSwitch
+                  checked={false}
+                  label="users.field.isStaff"
+                  onChange={[Function]}
+/>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Fill the following form to create a new user"
+                    id="users.newUser.createText"
+                    values={Object {}}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Fill the following form to create a new user",
+                    "id": "users.newUser.createText",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.username",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.firstName",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.lastName",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.email",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "email",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.password",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.checkPassword",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "checked": false,
+                  "label": "users.field.isStaff",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="users.newUser.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  disabled={false}
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Create user"
+                                    id="users.newUser.create"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="users.newUser.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "users.newUser.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Create user"
+                    id="users.newUser.create"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Create user",
+                    "id": "users.newUser.create",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Error while updating user; please check the form."
+            id="users.edition.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Error while updating user; please check the form.",
+            "id": "users.edition.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="User updated."
+            id="users.edition.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "User updated.",
+            "id": "users.edition.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Update user"
+                            id="users.editUser.title"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)
+              className={undefined}
+>
+              <WithStyles(DialogContentText)>
+                            <FormattedMessage
+                                          defaultMessage="Fill the following form to update the user"
+                                          id="users.editUser.createText"
+                                          values={Object {}}
+                            />
+              </WithStyles(DialogContentText)>
+              <TextField
+                            error={false}
+                            label="users.field.username"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.firstName"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.lastName"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.email"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            type="email"
+                            value=""
+              />
+              <br />
+              <WithStyles(Typography)
+                            variant="caption"
+              >
+                            <FormattedMessage
+                                          defaultMessage="To keep the user's current password, leave those fields empty."
+                                          id="users.editUser.passwordNotice"
+                                          values={Object {}}
+                            />
+              </WithStyles(Typography)>
+              <TextField
+                            error={false}
+                            label="users.field.password"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            type="password"
+                            value=""
+              />
+              <TextField
+                            error={false}
+                            label="users.field.checkPassword"
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            type="password"
+                            value=""
+              />
+              <VisuaSwitch
+                            checked={false}
+                            label="users.field.isStaff"
+                            onChange={[Function]}
+              />
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="users.editUser.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Update user"
+                                          id="users.editUser.update"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Update user"
+                id="users.editUser.title"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Update user",
+                "id": "users.editUser.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(DialogContentText)>
+                  <FormattedMessage
+                                    defaultMessage="Fill the following form to update the user"
+                                    id="users.editUser.createText"
+                                    values={Object {}}
+                  />
+</WithStyles(DialogContentText)>,
+                <TextField
+                  error={false}
+                  label="users.field.username"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.firstName"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.lastName"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.email"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="email"
+                  value=""
+/>,
+                <br />,
+                <WithStyles(Typography)
+                  variant="caption"
+>
+                  <FormattedMessage
+                                    defaultMessage="To keep the user's current password, leave those fields empty."
+                                    id="users.editUser.passwordNotice"
+                                    values={Object {}}
+                  />
+</WithStyles(Typography)>,
+                <TextField
+                  error={false}
+                  label="users.field.password"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="password"
+                  value=""
+/>,
+                <TextField
+                  error={false}
+                  label="users.field.checkPassword"
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  type="password"
+                  value=""
+/>,
+                <VisuaSwitch
+                  checked={false}
+                  label="users.field.isStaff"
+                  onChange={[Function]}
+/>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Fill the following form to update the user"
+                    id="users.editUser.createText"
+                    values={Object {}}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Fill the following form to update the user",
+                    "id": "users.editUser.createText",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.username",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.firstName",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.lastName",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.email",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "email",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {},
+                "ref": null,
+                "rendered": null,
+                "type": "br",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="To keep the user's current password, leave those fields empty."
+                    id="users.editUser.passwordNotice"
+                    values={Object {}}
+/>,
+                  "variant": "caption",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "To keep the user's current password, leave those fields empty.",
+                    "id": "users.editUser.passwordNotice",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.password",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "users.field.checkPassword",
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "type": "password",
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "checked": false,
+                  "label": "users.field.isStaff",
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="users.editUser.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  disabled={false}
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Update user"
+                                    id="users.editUser.update"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="users.editUser.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "users.editUser.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Update user"
+                    id="users.editUser.update"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Update user",
+                    "id": "users.editUser.update",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="User deleted."
+            id="users.deletion.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "User deleted.",
+            "id": "users.deletion.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Are you sure?"
+                            id="users.deletion.title"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)>
+              <WithStyles(DialogContentText)>
+                            <FormattedMessage
+                                          defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                                          id="users.deletion.text"
+                                          values={Object {}}
+                            />
+              </WithStyles(DialogContentText)>
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="users.deletion.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Delete"
+                                          id="users.deletion.confirm"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Are you sure?"
+                id="users.deletion.title"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Are you sure?",
+                "id": "users.deletion.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(DialogContentText)>
+                <FormattedMessage
+                                defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                                id="users.deletion.text"
+                                values={Object {}}
+                />
+</WithStyles(DialogContentText)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                  id="users.deletion.text"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Do you really want to delete this user? You will not be able to undo this action.",
+                  "id": "users.deletion.text",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="users.deletion.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Delete"
+                                    id="users.deletion.confirm"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="users.deletion.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "users.deletion.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Delete"
+                    id="users.deletion.confirm"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Delete",
+                    "id": "users.deletion.confirm",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": undefined,
+          "itemToPrimary": [Function],
+          "itemToSecondary": [Function],
+          "items": undefined,
+          "loadItems": [Function],
+          "loaded": undefined,
+          "newButtonText": "users.new",
+          "onDeleteItem": [Function],
+          "onEditItem": [Function],
+          "onNewButton": [Function],
+          "title": "users.title",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Error while creating user; please check the form."
+                        id="users.creation.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="User created."
+                        id="users.creation.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Create new user"
+                                    id="users.newUser.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)
+                        className={undefined}
+            >
+                        <WithStyles(DialogContentText)>
+                                    <FormattedMessage
+                                                defaultMessage="Fill the following form to create a new user"
+                                                id="users.newUser.createText"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(DialogContentText)>
+                        <TextField
+                                    error={false}
+                                    label="users.field.username"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.firstName"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.lastName"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.email"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    type="email"
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.password"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    type="password"
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.checkPassword"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    type="password"
+                                    value=""
+                        />
+                        <VisuaSwitch
+                                    checked={false}
+                                    label="users.field.isStaff"
+                                    onChange={[Function]}
+                        />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="users.newUser.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    disabled={false}
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Create user"
+                                                id="users.newUser.create"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Error while updating user; please check the form."
+                        id="users.edition.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="User updated."
+                        id="users.edition.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Update user"
+                                    id="users.editUser.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)
+                        className={undefined}
+            >
+                        <WithStyles(DialogContentText)>
+                                    <FormattedMessage
+                                                defaultMessage="Fill the following form to update the user"
+                                                id="users.editUser.createText"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(DialogContentText)>
+                        <TextField
+                                    error={false}
+                                    label="users.field.username"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.firstName"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.lastName"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.email"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    type="email"
+                                    value=""
+                        />
+                        <br />
+                        <WithStyles(Typography)
+                                    variant="caption"
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="To keep the user's current password, leave those fields empty."
+                                                id="users.editUser.passwordNotice"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Typography)>
+                        <TextField
+                                    error={false}
+                                    label="users.field.password"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    type="password"
+                                    value=""
+                        />
+                        <TextField
+                                    error={false}
+                                    label="users.field.checkPassword"
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    type="password"
+                                    value=""
+                        />
+                        <VisuaSwitch
+                                    checked={false}
+                                    label="users.field.isStaff"
+                                    onChange={[Function]}
+                        />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="users.editUser.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    disabled={false}
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Update user"
+                                                id="users.editUser.update"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="User deleted."
+                        id="users.deletion.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Are you sure?"
+                                    id="users.deletion.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+                        <WithStyles(DialogContentText)>
+                                    <FormattedMessage
+                                                defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                                                id="users.deletion.text"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(DialogContentText)>
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="users.deletion.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Delete"
+                                                id="users.deletion.confirm"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <WithStyles(ItemsListBase)
+            count={undefined}
+            itemToPrimary={[Function]}
+            itemToSecondary={[Function]}
+            items={undefined}
+            loadItems={[Function]}
+            loaded={undefined}
+            newButtonText="users.new"
+            onDeleteItem={[Function]}
+            onEditItem={[Function]}
+            onNewButton={[Function]}
+            title="users.title"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Error while creating user; please check the form."
+              id="users.creation.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Error while creating user; please check the form.",
+              "id": "users.creation.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="User created."
+              id="users.creation.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "User created.",
+              "id": "users.creation.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Create new user"
+                                id="users.newUser.title"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)
+                className={undefined}
+>
+                <WithStyles(DialogContentText)>
+                                <FormattedMessage
+                                                defaultMessage="Fill the following form to create a new user"
+                                                id="users.newUser.createText"
+                                                values={Object {}}
+                                />
+                </WithStyles(DialogContentText)>
+                <TextField
+                                error={false}
+                                label="users.field.username"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.firstName"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.lastName"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.email"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                type="email"
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.password"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                type="password"
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.checkPassword"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                type="password"
+                                value=""
+                />
+                <VisuaSwitch
+                                checked={false}
+                                label="users.field.isStaff"
+                                onChange={[Function]}
+                />
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="users.newUser.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                disabled={false}
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Create user"
+                                                id="users.newUser.create"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Create new user"
+                  id="users.newUser.title"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Create new user",
+                  "id": "users.newUser.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(DialogContentText)>
+                    <FormattedMessage
+                                        defaultMessage="Fill the following form to create a new user"
+                                        id="users.newUser.createText"
+                                        values={Object {}}
+                    />
+</WithStyles(DialogContentText)>,
+                  <TextField
+                    error={false}
+                    label="users.field.username"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.firstName"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.lastName"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.email"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="email"
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.password"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="password"
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.checkPassword"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="password"
+                    value=""
+/>,
+                  <VisuaSwitch
+                    checked={false}
+                    label="users.field.isStaff"
+                    onChange={[Function]}
+/>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Fill the following form to create a new user"
+                      id="users.newUser.createText"
+                      values={Object {}}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Fill the following form to create a new user",
+                      "id": "users.newUser.createText",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.username",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.firstName",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.lastName",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.email",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "email",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.password",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.checkPassword",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checked": false,
+                    "label": "users.field.isStaff",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="users.newUser.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    disabled={false}
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Create user"
+                                        id="users.newUser.create"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="users.newUser.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "users.newUser.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Create user"
+                      id="users.newUser.create"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "disabled": false,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Create user",
+                      "id": "users.newUser.create",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Error while updating user; please check the form."
+              id="users.edition.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Error while updating user; please check the form.",
+              "id": "users.edition.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="User updated."
+              id="users.edition.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "User updated.",
+              "id": "users.edition.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Update user"
+                                id="users.editUser.title"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)
+                className={undefined}
+>
+                <WithStyles(DialogContentText)>
+                                <FormattedMessage
+                                                defaultMessage="Fill the following form to update the user"
+                                                id="users.editUser.createText"
+                                                values={Object {}}
+                                />
+                </WithStyles(DialogContentText)>
+                <TextField
+                                error={false}
+                                label="users.field.username"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.firstName"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.lastName"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.email"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                type="email"
+                                value=""
+                />
+                <br />
+                <WithStyles(Typography)
+                                variant="caption"
+                >
+                                <FormattedMessage
+                                                defaultMessage="To keep the user's current password, leave those fields empty."
+                                                id="users.editUser.passwordNotice"
+                                                values={Object {}}
+                                />
+                </WithStyles(Typography)>
+                <TextField
+                                error={false}
+                                label="users.field.password"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                type="password"
+                                value=""
+                />
+                <TextField
+                                error={false}
+                                label="users.field.checkPassword"
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                type="password"
+                                value=""
+                />
+                <VisuaSwitch
+                                checked={false}
+                                label="users.field.isStaff"
+                                onChange={[Function]}
+                />
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="users.editUser.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                disabled={false}
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Update user"
+                                                id="users.editUser.update"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Update user"
+                  id="users.editUser.title"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Update user",
+                  "id": "users.editUser.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(DialogContentText)>
+                    <FormattedMessage
+                                        defaultMessage="Fill the following form to update the user"
+                                        id="users.editUser.createText"
+                                        values={Object {}}
+                    />
+</WithStyles(DialogContentText)>,
+                  <TextField
+                    error={false}
+                    label="users.field.username"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.firstName"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.lastName"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.email"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="email"
+                    value=""
+/>,
+                  <br />,
+                  <WithStyles(Typography)
+                    variant="caption"
+>
+                    <FormattedMessage
+                                        defaultMessage="To keep the user's current password, leave those fields empty."
+                                        id="users.editUser.passwordNotice"
+                                        values={Object {}}
+                    />
+</WithStyles(Typography)>,
+                  <TextField
+                    error={false}
+                    label="users.field.password"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="password"
+                    value=""
+/>,
+                  <TextField
+                    error={false}
+                    label="users.field.checkPassword"
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    type="password"
+                    value=""
+/>,
+                  <VisuaSwitch
+                    checked={false}
+                    label="users.field.isStaff"
+                    onChange={[Function]}
+/>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Fill the following form to update the user"
+                      id="users.editUser.createText"
+                      values={Object {}}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Fill the following form to update the user",
+                      "id": "users.editUser.createText",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.username",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.firstName",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.lastName",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.email",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "email",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": "br",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="To keep the user's current password, leave those fields empty."
+                      id="users.editUser.passwordNotice"
+                      values={Object {}}
+/>,
+                    "variant": "caption",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "To keep the user's current password, leave those fields empty.",
+                      "id": "users.editUser.passwordNotice",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.password",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "users.field.checkPassword",
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "type": "password",
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "checked": false,
+                    "label": "users.field.isStaff",
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="users.editUser.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    disabled={false}
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Update user"
+                                        id="users.editUser.update"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="users.editUser.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "users.editUser.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Update user"
+                      id="users.editUser.update"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "disabled": false,
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Update user",
+                      "id": "users.editUser.update",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="User deleted."
+              id="users.deletion.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "User deleted.",
+              "id": "users.deletion.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Are you sure?"
+                                id="users.deletion.title"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)>
+                <WithStyles(DialogContentText)>
+                                <FormattedMessage
+                                                defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                                                id="users.deletion.text"
+                                                values={Object {}}
+                                />
+                </WithStyles(DialogContentText)>
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="users.deletion.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Delete"
+                                                id="users.deletion.confirm"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Are you sure?"
+                  id="users.deletion.title"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Are you sure?",
+                  "id": "users.deletion.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(DialogContentText)>
+                  <FormattedMessage
+                                    defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                                    id="users.deletion.text"
+                                    values={Object {}}
+                  />
+</WithStyles(DialogContentText)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Do you really want to delete this user? You will not be able to undo this action."
+                    id="users.deletion.text"
+                    values={Object {}}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Do you really want to delete this user? You will not be able to undo this action.",
+                    "id": "users.deletion.text",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="users.deletion.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Delete"
+                                        id="users.deletion.confirm"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="users.deletion.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "users.deletion.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Delete"
+                      id="users.deletion.confirm"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Delete",
+                      "id": "users.deletion.confirm",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": undefined,
+            "itemToPrimary": [Function],
+            "itemToSecondary": [Function],
+            "items": undefined,
+            "loadItems": [Function],
+            "loaded": undefined,
+            "newButtonText": "users.new",
+            "onDeleteItem": [Function],
+            "onEditItem": [Function],
+            "onNewButton": [Function],
+            "title": "users.title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

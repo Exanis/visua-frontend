@@ -1,0 +1,178 @@
+[
+  {
+    "id": "users.title",
+    "defaultMessage": "Users"
+  },
+  {
+    "id": "users.new",
+    "defaultMessage": "Create user"
+  },
+  {
+    "id": "users.field.username",
+    "defaultMessage": "Username"
+  },
+  {
+    "id": "users.field.firstName",
+    "defaultMessage": "First name"
+  },
+  {
+    "id": "users.field.lastName",
+    "defaultMessage": "Last name"
+  },
+  {
+    "id": "users.field.email",
+    "defaultMessage": "Email address"
+  },
+  {
+    "id": "users.field.password",
+    "defaultMessage": "Password"
+  },
+  {
+    "id": "users.field.checkPassword",
+    "defaultMessage": "Retype password"
+  },
+  {
+    "id": "users.field.isStaff",
+    "defaultMessage": "Administrator"
+  },
+  {
+    "id": "users.errors.password.check",
+    "defaultMessage": "Password mismatch"
+  },
+  {
+    "id": "users.errors.username.required",
+    "defaultMessage": "Username is required"
+  },
+  {
+    "id": "users.errors.username.exists",
+    "defaultMessage": "An user already exists with this username"
+  },
+  {
+    "id": "users.errors.username.tooLong",
+    "defaultMessage": "Username too long (max 150 chars)"
+  },
+  {
+    "id": "users.errors.username.tooShort",
+    "defaultMessage": "Username too short (min 2 chars)"
+  },
+  {
+    "id": "users.errors.firstName.required",
+    "defaultMessage": "First name is required"
+  },
+  {
+    "id": "users.errors.firstName.tooLong",
+    "defaultMessage": "First name too long (max 30 chars)"
+  },
+  {
+    "id": "users.errors.firstName.tooShort",
+    "defaultMessage": "First name too short (min 2 chars)"
+  },
+  {
+    "id": "users.errors.lastName.required",
+    "defaultMessage": "Last name is required"
+  },
+  {
+    "id": "users.errors.lastName.tooLong",
+    "defaultMessage": "Last name too long (max 150 chars)"
+  },
+  {
+    "id": "users.errors.lastName.tooShort",
+    "defaultMessage": "Last name too short (min 2 chars)"
+  },
+  {
+    "id": "users.errors.email.required",
+    "defaultMessage": "Email is required"
+  },
+  {
+    "id": "users.errors.email.exists",
+    "defaultMessage": "Email already in use"
+  },
+  {
+    "id": "users.errors.email.invalid",
+    "defaultMessage": "Email is invalid"
+  },
+  {
+    "id": "users.errors.password.invalid",
+    "defaultMessage": "Password is empty or invalid"
+  },
+  {
+    "id": "users.errors.password.tooLong",
+    "defaultMessage": "Password is too long"
+  },
+  {
+    "id": "users.errors.password.tooShort",
+    "defaultMessage": "Password is too short"
+  },
+  {
+    "id": "users.newUser.title",
+    "defaultMessage": "Create new user"
+  },
+  {
+    "id": "users.newUser.createText",
+    "defaultMessage": "Fill the following form to create a new user"
+  },
+  {
+    "id": "users.newUser.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "users.newUser.create",
+    "defaultMessage": "Create user"
+  },
+  {
+    "id": "users.editUser.title",
+    "defaultMessage": "Update user"
+  },
+  {
+    "id": "users.editUser.createText",
+    "defaultMessage": "Fill the following form to update the user"
+  },
+  {
+    "id": "users.editUser.passwordNotice",
+    "defaultMessage": "To keep the user's current password, leave those fields empty."
+  },
+  {
+    "id": "users.editUser.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "users.editUser.update",
+    "defaultMessage": "Update user"
+  },
+  {
+    "id": "users.creation.error",
+    "defaultMessage": "Error while creating user; please check the form."
+  },
+  {
+    "id": "users.creation.success",
+    "defaultMessage": "User created."
+  },
+  {
+    "id": "users.edition.error",
+    "defaultMessage": "Error while updating user; please check the form."
+  },
+  {
+    "id": "users.edition.success",
+    "defaultMessage": "User updated."
+  },
+  {
+    "id": "users.deletion.success",
+    "defaultMessage": "User deleted."
+  },
+  {
+    "id": "users.deletion.title",
+    "defaultMessage": "Are you sure?"
+  },
+  {
+    "id": "users.deletion.text",
+    "defaultMessage": "Do you really want to delete this user? You will not be able to undo this action."
+  },
+  {
+    "id": "users.deletion.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "users.deletion.confirm",
+    "defaultMessage": "Delete"
+  }
+]

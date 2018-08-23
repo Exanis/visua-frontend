@@ -1,0 +1,26 @@
+[
+  {
+    "id": "toolbar.menu.home",
+    "defaultMessage": "Home"
+  },
+  {
+    "id": "toolbar.menu.users",
+    "defaultMessage": "Users"
+  },
+  {
+    "id": "toolbar.menu.groups",
+    "defaultMessage": "Groups"
+  },
+  {
+    "id": "toolbar.menu.profile",
+    "defaultMessage": "Profile"
+  },
+  {
+    "id": "toolbar.menu.logout",
+    "defaultMessage": "Logout"
+  },
+  {
+    "id": "toolbar.main.title",
+    "defaultMessage": "Visua"
+  }
+]
