@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pipeline Actions createPipeline 1`] = `
+Object {
+  "name": "test-name",
+  "page": 1,
+  "search": "test",
+  "type": "pipeline.create",
+}
+`;
+
+exports[`Pipeline Actions getPipelineList 1`] = `
+Object {
+  "page": 1,
+  "search": "test",
+  "type": "pipeline.list",
+}
+`;
+
+exports[`Pipeline Actions onPipelineCreateError 1`] = `
+Object {
+  "error": Array [
+    "error",
+  ],
+  "type": "pipeline.create.error",
+}
+`;
+
+exports[`Pipeline Actions onPipelineCreateSuccess 1`] = `
+Object {
+  "type": "pipeline.create.success",
+}
+`;
+
+exports[`Pipeline Actions onPipelineList 1`] = `
+Object {
+  "pipelines": Array [
+    "first",
+    "second",
+  ],
+  "type": "pipeline.onList",
+}
+`;
+
+exports[`Pipeline Actions resetPipelineCreateState 1`] = `
+Object {
+  "type": "pipeline.create.reset",
+}
+`;

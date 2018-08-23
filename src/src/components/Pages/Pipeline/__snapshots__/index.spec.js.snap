@@ -1,0 +1,1585 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pipeline /> should render Pipeline properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Pipeline
+    intl={
+        Object {
+            "formatMessage": [Function],
+          }
+    }
+    pipeline={
+        Object {
+            "creation": Object {
+              "haveResult": false,
+              "success": false,
+            },
+          }
+    }
+    pipelineActions={
+        Object {
+            "createPipeline": [Function],
+            "getPipelineList": [Function],
+            "resetPipelineCreateState": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Error while creating pipeline; please check the form."
+                    id="pipeline.creation.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="Pipeline created."
+                    id="pipeline.creation.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Create a new pipeline"
+                              id="pipeline.newPipeline.createText"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+                    <TextField
+                              error={false}
+                              label={undefined}
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="pipeline.newPipeline.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Create pipeline"
+                                        id="pipeline.newPipeline.create"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <WithStyles(ItemsListBase)
+          count={undefined}
+          itemToPrimary={[Function]}
+          itemToSecondary={[Function]}
+          items={undefined}
+          loadItems={[Function]}
+          loaded={undefined}
+          newButtonText={undefined}
+          onNewButton={[Function]}
+          title={undefined}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Error while creating pipeline; please check the form."
+            id="pipeline.creation.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Error while creating pipeline; please check the form.",
+            "id": "pipeline.creation.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Pipeline created."
+            id="pipeline.creation.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Pipeline created.",
+            "id": "pipeline.creation.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Create a new pipeline"
+                            id="pipeline.newPipeline.createText"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)>
+              <TextField
+                            error={false}
+                            label={undefined}
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="pipeline.newPipeline.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Create pipeline"
+                                          id="pipeline.newPipeline.create"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Create a new pipeline"
+                id="pipeline.newPipeline.createText"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Create a new pipeline",
+                "id": "pipeline.newPipeline.createText",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                error={false}
+                label={undefined}
+                onChange={[Function]}
+                required={false}
+                select={false}
+                value=""
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": false,
+                "label": undefined,
+                "onChange": [Function],
+                "required": false,
+                "select": false,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="pipeline.newPipeline.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Create pipeline"
+                                    id="pipeline.newPipeline.create"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="pipeline.newPipeline.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "pipeline.newPipeline.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Create pipeline"
+                    id="pipeline.newPipeline.create"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Create pipeline",
+                    "id": "pipeline.newPipeline.create",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": undefined,
+          "itemToPrimary": [Function],
+          "itemToSecondary": [Function],
+          "items": undefined,
+          "loadItems": [Function],
+          "loaded": undefined,
+          "newButtonText": undefined,
+          "onNewButton": [Function],
+          "title": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Error while creating pipeline; please check the form."
+                        id="pipeline.creation.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="Pipeline created."
+                        id="pipeline.creation.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Create a new pipeline"
+                                    id="pipeline.newPipeline.createText"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+                        <TextField
+                                    error={false}
+                                    label={undefined}
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="pipeline.newPipeline.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Create pipeline"
+                                                id="pipeline.newPipeline.create"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <WithStyles(ItemsListBase)
+            count={undefined}
+            itemToPrimary={[Function]}
+            itemToSecondary={[Function]}
+            items={undefined}
+            loadItems={[Function]}
+            loaded={undefined}
+            newButtonText={undefined}
+            onNewButton={[Function]}
+            title={undefined}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Error while creating pipeline; please check the form."
+              id="pipeline.creation.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Error while creating pipeline; please check the form.",
+              "id": "pipeline.creation.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Pipeline created."
+              id="pipeline.creation.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Pipeline created.",
+              "id": "pipeline.creation.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Create a new pipeline"
+                                id="pipeline.newPipeline.createText"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)>
+                <TextField
+                                error={false}
+                                label={undefined}
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="pipeline.newPipeline.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Create pipeline"
+                                                id="pipeline.newPipeline.create"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Create a new pipeline"
+                  id="pipeline.newPipeline.createText"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Create a new pipeline",
+                  "id": "pipeline.newPipeline.createText",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  error={false}
+                  label={undefined}
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": undefined,
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="pipeline.newPipeline.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Create pipeline"
+                                        id="pipeline.newPipeline.create"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="pipeline.newPipeline.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "pipeline.newPipeline.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Create pipeline"
+                      id="pipeline.newPipeline.create"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Create pipeline",
+                      "id": "pipeline.newPipeline.create",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": undefined,
+            "itemToPrimary": [Function],
+            "itemToSecondary": [Function],
+            "items": undefined,
+            "loadItems": [Function],
+            "loaded": undefined,
+            "newButtonText": undefined,
+            "onNewButton": [Function],
+            "title": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<Pipeline /> should render Pipeline properly when form is open 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Pipeline
+    intl={
+        Object {
+            "formatMessage": [Function],
+          }
+    }
+    pipeline={
+        Object {
+            "creation": Object {
+              "haveResult": false,
+              "success": false,
+            },
+          }
+    }
+    pipelineActions={
+        Object {
+            "createPipeline": [Function],
+            "getPipelineList": [Function],
+            "resetPipelineCreateState": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Error while creating pipeline; please check the form."
+                    id="pipeline.creation.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="Pipeline created."
+                    id="pipeline.creation.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Create a new pipeline"
+                              id="pipeline.newPipeline.createText"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+                    <TextField
+                              error={false}
+                              label={undefined}
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="pipeline.newPipeline.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Create pipeline"
+                                        id="pipeline.newPipeline.create"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <WithStyles(ItemsListBase)
+          count={undefined}
+          itemToPrimary={[Function]}
+          itemToSecondary={[Function]}
+          items={undefined}
+          loadItems={[Function]}
+          loaded={undefined}
+          newButtonText={undefined}
+          onNewButton={[Function]}
+          title={undefined}
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Error while creating pipeline; please check the form."
+            id="pipeline.creation.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Error while creating pipeline; please check the form.",
+            "id": "pipeline.creation.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Pipeline created."
+            id="pipeline.creation.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Pipeline created.",
+            "id": "pipeline.creation.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Create a new pipeline"
+                            id="pipeline.newPipeline.createText"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)>
+              <TextField
+                            error={false}
+                            label={undefined}
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="pipeline.newPipeline.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Create pipeline"
+                                          id="pipeline.newPipeline.create"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Create a new pipeline"
+                id="pipeline.newPipeline.createText"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Create a new pipeline",
+                "id": "pipeline.newPipeline.createText",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <TextField
+                error={false}
+                label={undefined}
+                onChange={[Function]}
+                required={false}
+                select={false}
+                value=""
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "error": false,
+                "label": undefined,
+                "onChange": [Function],
+                "required": false,
+                "select": false,
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="pipeline.newPipeline.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Create pipeline"
+                                    id="pipeline.newPipeline.create"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="pipeline.newPipeline.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "pipeline.newPipeline.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Create pipeline"
+                    id="pipeline.newPipeline.create"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Create pipeline",
+                    "id": "pipeline.newPipeline.create",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": undefined,
+          "itemToPrimary": [Function],
+          "itemToSecondary": [Function],
+          "items": undefined,
+          "loadItems": [Function],
+          "loaded": undefined,
+          "newButtonText": undefined,
+          "onNewButton": [Function],
+          "title": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Error while creating pipeline; please check the form."
+                        id="pipeline.creation.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="Pipeline created."
+                        id="pipeline.creation.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Create a new pipeline"
+                                    id="pipeline.newPipeline.createText"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+                        <TextField
+                                    error={false}
+                                    label={undefined}
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="pipeline.newPipeline.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Create pipeline"
+                                                id="pipeline.newPipeline.create"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <WithStyles(ItemsListBase)
+            count={undefined}
+            itemToPrimary={[Function]}
+            itemToSecondary={[Function]}
+            items={undefined}
+            loadItems={[Function]}
+            loaded={undefined}
+            newButtonText={undefined}
+            onNewButton={[Function]}
+            title={undefined}
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Error while creating pipeline; please check the form."
+              id="pipeline.creation.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Error while creating pipeline; please check the form.",
+              "id": "pipeline.creation.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Pipeline created."
+              id="pipeline.creation.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Pipeline created.",
+              "id": "pipeline.creation.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Create a new pipeline"
+                                id="pipeline.newPipeline.createText"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)>
+                <TextField
+                                error={false}
+                                label={undefined}
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="pipeline.newPipeline.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Create pipeline"
+                                                id="pipeline.newPipeline.create"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Create a new pipeline"
+                  id="pipeline.newPipeline.createText"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Create a new pipeline",
+                  "id": "pipeline.newPipeline.createText",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <TextField
+                  error={false}
+                  label={undefined}
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": undefined,
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="pipeline.newPipeline.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Create pipeline"
+                                        id="pipeline.newPipeline.create"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="pipeline.newPipeline.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "pipeline.newPipeline.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Create pipeline"
+                      id="pipeline.newPipeline.create"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Create pipeline",
+                      "id": "pipeline.newPipeline.create",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": undefined,
+            "itemToPrimary": [Function],
+            "itemToSecondary": [Function],
+            "items": undefined,
+            "loadItems": [Function],
+            "loaded": undefined,
+            "newButtonText": undefined,
+            "onNewButton": [Function],
+            "title": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

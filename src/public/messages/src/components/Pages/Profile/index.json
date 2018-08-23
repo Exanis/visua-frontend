@@ -1,0 +1,98 @@
+[
+  {
+    "id": "profile.firstName",
+    "defaultMessage": "First name"
+  },
+  {
+    "id": "profile.lastName",
+    "defaultMessage": "Last name"
+  },
+  {
+    "id": "profile.email",
+    "defaultMessage": "Email address"
+  },
+  {
+    "id": "profile.password",
+    "defaultMessage": "Password"
+  },
+  {
+    "id": "profile.checkPassword",
+    "defaultMessage": "Check password"
+  },
+  {
+    "id": "profile.errors.password.check",
+    "defaultMessage": "Password mismatch"
+  },
+  {
+    "id": "profile.errors.firstName.required",
+    "defaultMessage": "First name is required"
+  },
+  {
+    "id": "profile.errors.firstName.tooLong",
+    "defaultMessage": "First name too long (max 30 chars)"
+  },
+  {
+    "id": "profile.errors.firstName.tooShort",
+    "defaultMessage": "First name too short (min 2 chars)"
+  },
+  {
+    "id": "profile.errors.lastName.required",
+    "defaultMessage": "Last name is required"
+  },
+  {
+    "id": "profile.errors.lastName.tooLong",
+    "defaultMessage": "Last name too long (max 150 chars)"
+  },
+  {
+    "id": "profile.errors.lastName.tooShort",
+    "defaultMessage": "Last name too short (min 2 chars)"
+  },
+  {
+    "id": "profile.errors.email.required",
+    "defaultMessage": "Email is required"
+  },
+  {
+    "id": "profile.errors.email.exists",
+    "defaultMessage": "Email already in use"
+  },
+  {
+    "id": "profile.errors.email.invalid",
+    "defaultMessage": "Email is invalid"
+  },
+  {
+    "id": "profile.errors.password.invalid",
+    "defaultMessage": "Password is empty or invalid"
+  },
+  {
+    "id": "profile.errors.password.tooLong",
+    "defaultMessage": "Password is too long"
+  },
+  {
+    "id": "profile.errors.password.tooShort",
+    "defaultMessage": "Password is too short"
+  },
+  {
+    "id": "profile.update.error",
+    "defaultMessage": "Error while updating your profile; please check the form."
+  },
+  {
+    "id": "profile.update.success",
+    "defaultMessage": "Profile updated."
+  },
+  {
+    "id": "profile.title",
+    "defaultMessage": "My profile"
+  },
+  {
+    "id": "profile.username",
+    "defaultMessage": "Username"
+  },
+  {
+    "id": "profile.passwordNotice",
+    "defaultMessage": "To keep your current password, leave those fields empty."
+  },
+  {
+    "id": "profile.update",
+    "defaultMessage": "Update profile"
+  }
+]

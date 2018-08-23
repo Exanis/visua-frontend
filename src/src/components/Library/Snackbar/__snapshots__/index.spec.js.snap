@@ -1,0 +1,305 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Snackbar /> should render Snackbar content properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MySnackbarContent
+    classes={Object {}}
+    intl={
+        Object {
+            "formatMessage": [Function],
+          }
+    }
+    onClose={[Function]}
+    variant="success"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "action": Array [
+        <WithStyles(IconButton)
+          aria-label="test-intl"
+          className={undefined}
+          color="inherit"
+          onClick={[Function]}
+>
+          <pure(Close)
+                    className={undefined}
+          />
+</WithStyles(IconButton)>,
+      ],
+      "aria-describedby": "client-snackbar",
+      "className": undefined,
+      "message": <span
+        className={undefined}
+        id="client-snackbar"
+>
+        <pure(CheckCircle)
+                className=""
+        />
+</span>,
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "action": Array [
+          <WithStyles(IconButton)
+            aria-label="test-intl"
+            className={undefined}
+            color="inherit"
+            onClick={[Function]}
+>
+            <pure(Close)
+                        className={undefined}
+            />
+</WithStyles(IconButton)>,
+        ],
+        "aria-describedby": "client-snackbar",
+        "className": undefined,
+        "message": <span
+          className={undefined}
+          id="client-snackbar"
+>
+          <pure(CheckCircle)
+                    className=""
+          />
+</span>,
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<Snackbar /> should render Snackbar properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VisuaSnackbar
+    open={true}
+    variant="success"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "anchorOrigin": Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      },
+      "autoHideDuration": 6000,
+      "children": <InjectIntl(WithStyles(MySnackbarContent))
+        onClose={[Function]}
+        variant="success"
+/>,
+      "onClose": [Function],
+      "open": true,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": undefined,
+        "onClose": [Function],
+        "variant": "success",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "anchorOrigin": Object {
+          "horizontal": "center",
+          "vertical": "bottom",
+        },
+        "autoHideDuration": 6000,
+        "children": <InjectIntl(WithStyles(MySnackbarContent))
+          onClose={[Function]}
+          variant="success"
+/>,
+        "onClose": [Function],
+        "open": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+          "onClose": [Function],
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`<Snackbar /> should render Snackbar properly when hidden 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <VisuaSnackbar
+    open={false}
+    variant="success"
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "anchorOrigin": Object {
+        "horizontal": "center",
+        "vertical": "bottom",
+      },
+      "autoHideDuration": 6000,
+      "children": <InjectIntl(WithStyles(MySnackbarContent))
+        onClose={[Function]}
+        variant="success"
+/>,
+      "onClose": [Function],
+      "open": false,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": undefined,
+        "onClose": [Function],
+        "variant": "success",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "anchorOrigin": Object {
+          "horizontal": "center",
+          "vertical": "bottom",
+        },
+        "autoHideDuration": 6000,
+        "children": <InjectIntl(WithStyles(MySnackbarContent))
+          onClose={[Function]}
+          variant="success"
+/>,
+        "onClose": [Function],
+        "open": false,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": undefined,
+          "onClose": [Function],
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

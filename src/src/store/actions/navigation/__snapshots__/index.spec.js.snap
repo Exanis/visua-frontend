@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Actions Redirect: should redirect you 1`] = `
+Object {
+  "payload": Object {
+    "args": Array [
+      "/test-location",
+    ],
+    "method": "push",
+  },
+  "type": "@@router/CALL_HISTORY_METHOD",
+}
+`;

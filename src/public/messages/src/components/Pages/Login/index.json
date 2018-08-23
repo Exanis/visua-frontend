@@ -1,0 +1,30 @@
+[
+  {
+    "id": "login.login",
+    "defaultMessage": "Username"
+  },
+  {
+    "id": "login.password",
+    "defaultMessage": "Password"
+  },
+  {
+    "id": "toolbar.login.send",
+    "defaultMessage": "Connection"
+  },
+  {
+    "id": "login.error",
+    "defaultMessage": "Invalid username or password"
+  },
+  {
+    "id": "login.success",
+    "defaultMessage": "You are now connected!"
+  },
+  {
+    "id": "login.title",
+    "defaultMessage": "VISUA"
+  },
+  {
+    "id": "login.header",
+    "defaultMessage": "Please log in to continue"
+  }
+]

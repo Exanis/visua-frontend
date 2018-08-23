@@ -1,0 +1,617 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render App properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App
+    classes={Object {}}
+    requestCurrentUserData={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <IntlProvider
+        locale="en"
+>
+        <Connect(ConnectedRouter)
+                history={
+                        Object {
+                                "action": "POP",
+                                "block": [Function],
+                                "createHref": [Function],
+                                "go": [Function],
+                                "goBack": [Function],
+                                "goForward": [Function],
+                                "length": 1,
+                                "listen": [Function],
+                                "location": Object {
+                                  "hash": "",
+                                  "pathname": "/",
+                                  "search": "",
+                                  "state": undefined,
+                                },
+                                "push": [Function],
+                                "replace": [Function],
+                              }
+                }
+        >
+                <withRouter(Connect(WithStyles(Layout)))>
+                        <Switch>
+                                <Route
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/"
+                                />
+                                <Connect(PrivateRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/home"
+                                />
+                                <Connect(PrivateRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/profile"
+                                />
+                                <Connect(StaffRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/users"
+                                />
+                        </Switch>
+                </withRouter(Connect(WithStyles(Layout)))>
+        </Connect(ConnectedRouter)>
+</IntlProvider>,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Connect(ConnectedRouter)
+          history={
+                    Object {
+                              "action": "POP",
+                              "block": [Function],
+                              "createHref": [Function],
+                              "go": [Function],
+                              "goBack": [Function],
+                              "goForward": [Function],
+                              "length": 1,
+                              "listen": [Function],
+                              "location": Object {
+                                "hash": "",
+                                "pathname": "/",
+                                "search": "",
+                                "state": undefined,
+                              },
+                              "push": [Function],
+                              "replace": [Function],
+                            }
+          }
+>
+          <withRouter(Connect(WithStyles(Layout)))>
+                    <Switch>
+                              <Route
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/"
+                              />
+                              <Connect(PrivateRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/home"
+                              />
+                              <Connect(PrivateRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/profile"
+                              />
+                              <Connect(StaffRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/users"
+                              />
+                    </Switch>
+          </withRouter(Connect(WithStyles(Layout)))>
+</Connect(ConnectedRouter)>,
+        "locale": "en",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <withRouter(Connect(WithStyles(Layout)))>
+            <Switch>
+                        <Route
+                                    component={[Function]}
+                                    exact={true}
+                                    path="/"
+                        />
+                        <Connect(PrivateRouteComponent)
+                                    component={[Function]}
+                                    exact={true}
+                                    path="/home"
+                        />
+                        <Connect(PrivateRouteComponent)
+                                    component={[Function]}
+                                    exact={true}
+                                    path="/profile"
+                        />
+                        <Connect(StaffRouteComponent)
+                                    component={[Function]}
+                                    exact={true}
+                                    path="/users"
+                        />
+            </Switch>
+</withRouter(Connect(WithStyles(Layout)))>,
+          "history": Object {
+            "action": "POP",
+            "block": [Function],
+            "createHref": [Function],
+            "go": [Function],
+            "goBack": [Function],
+            "goForward": [Function],
+            "length": 1,
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "pathname": "/",
+              "search": "",
+              "state": undefined,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <Switch>
+              <Route
+                            component={[Function]}
+                            exact={true}
+                            path="/"
+              />
+              <Connect(PrivateRouteComponent)
+                            component={[Function]}
+                            exact={true}
+                            path="/home"
+              />
+              <Connect(PrivateRouteComponent)
+                            component={[Function]}
+                            exact={true}
+                            path="/profile"
+              />
+              <Connect(StaffRouteComponent)
+                            component={[Function]}
+                            exact={true}
+                            path="/users"
+              />
+</Switch>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Route
+                  component={[Function]}
+                  exact={true}
+                  path="/"
+/>,
+                <Connect(PrivateRouteComponent)
+                  component={[Function]}
+                  exact={true}
+                  path="/home"
+/>,
+                <Connect(PrivateRouteComponent)
+                  component={[Function]}
+                  exact={true}
+                  path="/profile"
+/>,
+                <Connect(StaffRouteComponent)
+                  component={[Function]}
+                  exact={true}
+                  path="/users"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/home",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/profile",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/users",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <IntlProvider
+          locale="en"
+>
+          <Connect(ConnectedRouter)
+                    history={
+                              Object {
+                                        "action": "POP",
+                                        "block": [Function],
+                                        "createHref": [Function],
+                                        "go": [Function],
+                                        "goBack": [Function],
+                                        "goForward": [Function],
+                                        "length": 1,
+                                        "listen": [Function],
+                                        "location": Object {
+                                          "hash": "",
+                                          "pathname": "/",
+                                          "search": "",
+                                          "state": undefined,
+                                        },
+                                        "push": [Function],
+                                        "replace": [Function],
+                                      }
+                    }
+          >
+                    <withRouter(Connect(WithStyles(Layout)))>
+                              <Switch>
+                                        <Route
+                                                  component={[Function]}
+                                                  exact={true}
+                                                  path="/"
+                                        />
+                                        <Connect(PrivateRouteComponent)
+                                                  component={[Function]}
+                                                  exact={true}
+                                                  path="/home"
+                                        />
+                                        <Connect(PrivateRouteComponent)
+                                                  component={[Function]}
+                                                  exact={true}
+                                                  path="/profile"
+                                        />
+                                        <Connect(StaffRouteComponent)
+                                                  component={[Function]}
+                                                  exact={true}
+                                                  path="/users"
+                                        />
+                              </Switch>
+                    </withRouter(Connect(WithStyles(Layout)))>
+          </Connect(ConnectedRouter)>
+</IntlProvider>,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <Connect(ConnectedRouter)
+            history={
+                        Object {
+                                    "action": "POP",
+                                    "block": [Function],
+                                    "createHref": [Function],
+                                    "go": [Function],
+                                    "goBack": [Function],
+                                    "goForward": [Function],
+                                    "length": 1,
+                                    "listen": [Function],
+                                    "location": Object {
+                                      "hash": "",
+                                      "pathname": "/",
+                                      "search": "",
+                                      "state": undefined,
+                                    },
+                                    "push": [Function],
+                                    "replace": [Function],
+                                  }
+            }
+>
+            <withRouter(Connect(WithStyles(Layout)))>
+                        <Switch>
+                                    <Route
+                                                component={[Function]}
+                                                exact={true}
+                                                path="/"
+                                    />
+                                    <Connect(PrivateRouteComponent)
+                                                component={[Function]}
+                                                exact={true}
+                                                path="/home"
+                                    />
+                                    <Connect(PrivateRouteComponent)
+                                                component={[Function]}
+                                                exact={true}
+                                                path="/profile"
+                                    />
+                                    <Connect(StaffRouteComponent)
+                                                component={[Function]}
+                                                exact={true}
+                                                path="/users"
+                                    />
+                        </Switch>
+            </withRouter(Connect(WithStyles(Layout)))>
+</Connect(ConnectedRouter)>,
+          "locale": "en",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <withRouter(Connect(WithStyles(Layout)))>
+              <Switch>
+                            <Route
+                                          component={[Function]}
+                                          exact={true}
+                                          path="/"
+                            />
+                            <Connect(PrivateRouteComponent)
+                                          component={[Function]}
+                                          exact={true}
+                                          path="/home"
+                            />
+                            <Connect(PrivateRouteComponent)
+                                          component={[Function]}
+                                          exact={true}
+                                          path="/profile"
+                            />
+                            <Connect(StaffRouteComponent)
+                                          component={[Function]}
+                                          exact={true}
+                                          path="/users"
+                            />
+              </Switch>
+</withRouter(Connect(WithStyles(Layout)))>,
+            "history": Object {
+              "action": "POP",
+              "block": [Function],
+              "createHref": [Function],
+              "go": [Function],
+              "goBack": [Function],
+              "goForward": [Function],
+              "length": 1,
+              "listen": [Function],
+              "location": Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              },
+              "push": [Function],
+              "replace": [Function],
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": <Switch>
+                <Route
+                                component={[Function]}
+                                exact={true}
+                                path="/"
+                />
+                <Connect(PrivateRouteComponent)
+                                component={[Function]}
+                                exact={true}
+                                path="/home"
+                />
+                <Connect(PrivateRouteComponent)
+                                component={[Function]}
+                                exact={true}
+                                path="/profile"
+                />
+                <Connect(StaffRouteComponent)
+                                component={[Function]}
+                                exact={true}
+                                path="/users"
+                />
+</Switch>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Route
+                    component={[Function]}
+                    exact={true}
+                    path="/"
+/>,
+                  <Connect(PrivateRouteComponent)
+                    component={[Function]}
+                    exact={true}
+                    path="/home"
+/>,
+                  <Connect(PrivateRouteComponent)
+                    component={[Function]}
+                    exact={true}
+                    path="/profile"
+/>,
+                  <Connect(StaffRouteComponent)
+                    component={[Function]}
+                    exact={true}
+                    path="/users"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/home",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/profile",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/users",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
