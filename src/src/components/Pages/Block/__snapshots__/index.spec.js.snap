@@ -89,6 +89,7 @@ ShallowWrapper {
                     <TextField
                               error={false}
                               label="block.field.data"
+                              multiline={true}
                               onChange={[Function]}
                               required={false}
                               select={false}
@@ -162,6 +163,7 @@ ShallowWrapper {
                     <TextField
                               error={false}
                               label="block.field.data"
+                              multiline={true}
                               onChange={[Function]}
                               required={false}
                               select={false}
@@ -345,6 +347,7 @@ ShallowWrapper {
               <TextField
                             error={false}
                             label="block.field.data"
+                            multiline={true}
                             onChange={[Function]}
                             required={false}
                             select={false}
@@ -422,6 +425,7 @@ ShallowWrapper {
                 <TextField
                   error={false}
                   label="block.field.data"
+                  multiline={true}
                   onChange={[Function]}
                   required={false}
                   select={false}
@@ -466,6 +470,7 @@ ShallowWrapper {
                 "props": Object {
                   "error": false,
                   "label": "block.field.data",
+                  "multiline": true,
                   "onChange": [Function],
                   "required": false,
                   "select": false,
@@ -656,6 +661,7 @@ ShallowWrapper {
               <TextField
                             error={false}
                             label="block.field.data"
+                            multiline={true}
                             onChange={[Function]}
                             required={false}
                             select={false}
@@ -733,6 +739,7 @@ ShallowWrapper {
                 <TextField
                   error={false}
                   label="block.field.data"
+                  multiline={true}
                   onChange={[Function]}
                   required={false}
                   select={false}
@@ -777,6 +784,7 @@ ShallowWrapper {
                 "props": Object {
                   "error": false,
                   "label": "block.field.data",
+                  "multiline": true,
                   "onChange": [Function],
                   "required": false,
                   "select": false,
@@ -1201,6 +1209,7 @@ ShallowWrapper {
                         <TextField
                                     error={false}
                                     label="block.field.data"
+                                    multiline={true}
                                     onChange={[Function]}
                                     required={false}
                                     select={false}
@@ -1274,6 +1283,7 @@ ShallowWrapper {
                         <TextField
                                     error={false}
                                     label="block.field.data"
+                                    multiline={true}
                                     onChange={[Function]}
                                     required={false}
                                     select={false}
@@ -1457,6 +1467,7 @@ ShallowWrapper {
                 <TextField
                                 error={false}
                                 label="block.field.data"
+                                multiline={true}
                                 onChange={[Function]}
                                 required={false}
                                 select={false}
@@ -1534,6 +1545,7 @@ ShallowWrapper {
                   <TextField
                     error={false}
                     label="block.field.data"
+                    multiline={true}
                     onChange={[Function]}
                     required={false}
                     select={false}
@@ -1578,6 +1590,7 @@ ShallowWrapper {
                   "props": Object {
                     "error": false,
                     "label": "block.field.data",
+                    "multiline": true,
                     "onChange": [Function],
                     "required": false,
                     "select": false,
@@ -1768,6 +1781,7 @@ ShallowWrapper {
                 <TextField
                                 error={false}
                                 label="block.field.data"
+                                multiline={true}
                                 onChange={[Function]}
                                 required={false}
                                 select={false}
@@ -1845,6 +1859,7 @@ ShallowWrapper {
                   <TextField
                     error={false}
                     label="block.field.data"
+                    multiline={true}
                     onChange={[Function]}
                     required={false}
                     select={false}
@@ -1889,6 +1904,7 @@ ShallowWrapper {
                   "props": Object {
                     "error": false,
                     "label": "block.field.data",
+                    "multiline": true,
                     "onChange": [Function],
                     "required": false,
                     "select": false,
