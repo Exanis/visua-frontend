@@ -8,7 +8,7 @@ export default function* watcherSaga() {
 }
 
 function fetchPipelineList(page, search) {
-    return axios.get('/api/pipeline/?search=' + search + '&page=' + page);
+    return axios.get('/api/project/pipeline/?search=' + search + '&page=' + page);
 }
 
 function* pipelineListSaga(action) {
@@ -23,7 +23,7 @@ function* pipelineListSaga(action) {
 
 function doCreatePipeline(name) {
     return axios.post(
-        '/api/pipeline/',
+        '/api/project/pipeline/',
         {
             name: name
         }

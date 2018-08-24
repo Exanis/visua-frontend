@@ -6,6 +6,7 @@ import rootSaga from './sagas';
 import userReducer from './reducers/user';
 import usersReducer from './reducers/users';
 import pipelineReducer from './reducers/pipeline';
+import blockReducer from './reducers/block';
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const sagaMiddleware = createSagaMiddleware();
@@ -18,6 +19,7 @@ const rootReducer = combineReducers({
     user: userReducer,
     users: usersReducer,
     pipeline: pipelineReducer,
+    block: blockReducer,
 });
 
 const createMiddleware = (history) => composeEnhancer(
