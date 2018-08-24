@@ -12,6 +12,7 @@ import Login from "../Pages/Login";
 import Profile from "../Pages/Profile";
 import Users from '../Pages/Users';
 import Pipeline from '../Pages/Pipeline';
+import Block from '../Pages/Block';
 
 const language =
   (navigator.languages && navigator.languages[0]) ||
@@ -67,6 +68,7 @@ class App extends React.Component {
                             <PrivateRoute exact path={'/profile'} component={Profile} />
 
                             <StaffRoute exact path={'/users'} component={Users} />
+                            <StaffRoute exact path={'/block'} component={Block} />
                         </Switch>
                     </Layout>
                 </ConnectedRouter>

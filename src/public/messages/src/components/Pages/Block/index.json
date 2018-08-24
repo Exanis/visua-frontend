@@ -1,0 +1,138 @@
+[
+  {
+    "id": "block.title",
+    "defaultMessage": "Block"
+  },
+  {
+    "id": "block.new",
+    "defaultMessage": "Create block"
+  },
+  {
+    "id": "block.field.data",
+    "defaultMessage": "Block descriptor"
+  },
+  {
+    "id": "block.errors.apiVersion.missing",
+    "defaultMessage": "Invalid descriptor: missing API version"
+  },
+  {
+    "id": "block.errors.apiVersion.invalid",
+    "defaultMessage": "Invalid descriptor: unsupported API version"
+  },
+  {
+    "id": "block.errors.name.missing",
+    "defaultMessage": "Invalid descriptor: missing name"
+  },
+  {
+    "id": "block.errors.name.tooLong",
+    "defaultMessage": "Invalid descriptor: name is too long (max 255 characters)"
+  },
+  {
+    "id": "block.errors.dataInput.missing",
+    "defaultMessage": "Invalid descriptor: missing data input"
+  },
+  {
+    "id": "block.errors.dataInput.invalid",
+    "defaultMessage": "Invalid descriptor: invalid data input (must be a list)"
+  },
+  {
+    "id": "block.errors.dataOutput.missing",
+    "defaultMessage": "Invalid descriptor: missing data output"
+  },
+  {
+    "id": "block.errors.dataOutput.invalid",
+    "defaultMessage": "Invalid descriptor: invalid data output (must be a list)"
+  },
+  {
+    "id": "block.errors.varsInput.missing",
+    "defaultMessage": "Invalid descriptor: missing vars input"
+  },
+  {
+    "id": "block.errors.varsInput.invalid",
+    "defaultMessage": "Invalid descriptor: invalid vars input (must be a list)"
+  },
+  {
+    "id": "block.errors.varsOutput.missing",
+    "defaultMessage": "Invalid descriptor: missing vars output"
+  },
+  {
+    "id": "block.errors.varsOutput.invalid",
+    "defaultMessage": "Invalid descriptor: invalid vars output (must be a list)"
+  },
+  {
+    "id": "block.errors.image.missing",
+    "defaultMessage": "Invalid descriptor: missing block image"
+  },
+  {
+    "id": "block.errors.data.invalid",
+    "defaultMessage": "Descriptor must be a valid JSON"
+  },
+  {
+    "id": "block.errors.data.missing",
+    "defaultMessage": "Descriptor is required"
+  },
+  {
+    "id": "block.newBlock.title",
+    "defaultMessage": "Create new block"
+  },
+  {
+    "id": "block.newBlock.createText",
+    "defaultMessage": "The data used in this form should be provided by the block's creator."
+  },
+  {
+    "id": "block.newBlock.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "block.newBlock.create",
+    "defaultMessage": "Create block"
+  },
+  {
+    "id": "block.editBlock.title",
+    "defaultMessage": "Update block"
+  },
+  {
+    "id": "block.editBlock.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "block.editBlock.update",
+    "defaultMessage": "Update block"
+  },
+  {
+    "id": "block.creation.error",
+    "defaultMessage": "Error while creating block; please check the form."
+  },
+  {
+    "id": "block.creation.success",
+    "defaultMessage": "Block created."
+  },
+  {
+    "id": "block.edition.error",
+    "defaultMessage": "Error while updating block; please check the form."
+  },
+  {
+    "id": "block.edition.success",
+    "defaultMessage": "Block updated."
+  },
+  {
+    "id": "block.deletion.success",
+    "defaultMessage": "Block deleted."
+  },
+  {
+    "id": "block.deletion.title",
+    "defaultMessage": "Are you sure?"
+  },
+  {
+    "id": "block.deletion.text",
+    "defaultMessage": "Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+  },
+  {
+    "id": "block.deletion.cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "block.deletion.confirm",
+    "defaultMessage": "Delete"
+  }
+]
