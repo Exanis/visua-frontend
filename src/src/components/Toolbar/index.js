@@ -20,7 +20,7 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
-import {Home, ExitToApp, AccountCircle, Group, Person} from '@material-ui/icons';
+import {Home, ExitToApp, AccountCircle, Group, Person, Extension} from '@material-ui/icons';
 import {logUserOut} from "../../store/actions/user";
 
 const messages = defineMessages({
@@ -35,6 +35,10 @@ const messages = defineMessages({
     groups: {
         id: "toolbar.menu.groups",
         defaultMessage: "Groups"
+    },
+    block: {
+        id: "toolbar.menu.block",
+        defaultMessage: "Blocks"
     },
     profile: {
         id: "toolbar.menu.profile",
@@ -144,6 +148,14 @@ export class VisuaToolbar extends React.Component {
                             <Group/>
                         </ListItemIcon>
                         <ListItemText primary={formatMessage(messages.groups)}/>
+                    </ListItem>
+                </Link>
+                <Link to='/block'>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <Extension />
+                        </ListItemIcon>
+                        <ListItemText primary={formatMessage(messages.block)}/>
                     </ListItem>
                 </Link>
             </List>

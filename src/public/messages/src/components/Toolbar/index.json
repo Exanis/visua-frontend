@@ -12,6 +12,10 @@
     "defaultMessage": "Groups"
   },
   {
+    "id": "toolbar.menu.block",
+    "defaultMessage": "Blocks"
+  },
+  {
     "id": "toolbar.menu.profile",
     "defaultMessage": "Profile"
   },

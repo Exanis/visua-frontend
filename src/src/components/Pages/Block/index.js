@@ -210,6 +210,7 @@ export class Block extends React.Component {
                 </DialogContentText>
                 <TextField
                     value={this.state.newBlockData}
+                    multiline
                     label={this.getCreateBlockFieldName('data', 'fieldData', formatMessage)}
                     onChange={this.handleChange('newBlockData')}
                     error={this.getNewBlockError('data')}
@@ -257,6 +258,7 @@ export class Block extends React.Component {
                 </DialogContentText>
                 <TextField
                     value={this.state.editBlockData}
+                    multiline
                     label={this.getEditBlockFieldName('data', 'fieldData', formatMessage)}
                     onChange={this.handleChange('editBlockData')}
                     error={this.getEditBlockError('data')}

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Block Actions createBlock 1`] = `
+Object {
+  "data": "test-blockname",
+  "page": "test-firstname",
+  "search": "test-lastname",
+  "type": "block.create",
+}
+`;
+
+exports[`Block Actions deleteBlock 1`] = `
+Object {
+  "page": 1,
+  "search": "test",
+  "type": "block.delete",
+  "uuid": "test-uuid",
+}
+`;
+
+exports[`Block Actions editBlock 1`] = `
+Object {
+  "data": "test-blockname",
+  "page": "test-firstname",
+  "search": "test-lastname",
+  "type": "block.edit",
+  "uuid": "test-uuid",
+}
+`;
+
+exports[`Block Actions getBlockList 1`] = `
+Object {
+  "page": 1,
+  "search": "test",
+  "type": "block.list",
+}
+`;
+
+exports[`Block Actions onBlockList 1`] = `
+Object {
+  "block": Array [
+    "first",
+    "second",
+  ],
+  "type": "block.onList",
+}
+`;
+
+exports[`Block Actions onCreateBlockError 1`] = `
+Object {
+  "errors": Array [
+    "error",
+  ],
+  "type": "block.create.error",
+}
+`;
+
+exports[`Block Actions onCreateBlockSuccess 1`] = `
+Object {
+  "type": "block.create.ok",
+}
+`;
+
+exports[`Block Actions onDeleteBlockSuccess 1`] = `
+Object {
+  "type": "block.delete.ok",
+}
+`;
+
+exports[`Block Actions onEditBlockError 1`] = `
+Object {
+  "errors": Array [
+    "error",
+  ],
+  "type": "block.edit.error",
+}
+`;
+
+exports[`Block Actions onEditBlockSuccess 1`] = `
+Object {
+  "type": "block.edit.ok",
+}
+`;
+
+exports[`Block Actions resetCreateBlockState 1`] = `
+Object {
+  "type": "block.create.reset",
+}
+`;
+
+exports[`Block Actions resetDeleteBlockState 1`] = `
+Object {
+  "type": "block.delete.reset",
+}
+`;
+
+exports[`Block Actions resetEditBlockState 1`] = `
+Object {
+  "type": "block.edit.reset",
+}
+`;

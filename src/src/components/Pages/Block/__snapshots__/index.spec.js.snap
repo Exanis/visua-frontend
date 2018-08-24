@@ -1,0 +1,2298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Block /> should render Block properly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Block
+    block={
+        Object {
+            "creation": Object {
+              "haveResult": false,
+              "success": false,
+            },
+            "deletion": Object {
+              "haveResult": false,
+            },
+            "edition": Object {
+              "haveResult": false,
+              "success": false,
+            },
+          }
+    }
+    blockActions={
+        Object {
+            "createBlock": [Function],
+            "editBlock": [Function],
+          }
+    }
+    classes={Object {}}
+    intl={
+        Object {
+            "formatMessage": [Function],
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Error while creating block; please check the form."
+                    id="block.creation.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="Block created."
+                    id="block.creation.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Create new block"
+                              id="block.newBlock.title"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)
+                    className={undefined}
+          >
+                    <WithStyles(DialogContentText)>
+                              <FormattedMessage
+                                        defaultMessage="The data used in this form should be provided by the block's creator."
+                                        id="block.newBlock.createText"
+                                        values={Object {}}
+                              />
+                    </WithStyles(DialogContentText)>
+                    <TextField
+                              error={false}
+                              label="block.field.data"
+                              multiline={true}
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="block.newBlock.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Create block"
+                                        id="block.newBlock.create"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <VisuaSnackbar
+          open={false}
+          variant="error"
+>
+          <FormattedMessage
+                    defaultMessage="Error while updating block; please check the form."
+                    id="block.edition.error"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="Block updated."
+                    id="block.edition.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Update block"
+                              id="block.editBlock.title"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)
+                    className={undefined}
+          >
+                    <WithStyles(DialogContentText)>
+                              <FormattedMessage
+                                        defaultMessage="The data used in this form should be provided by the block's creator."
+                                        id="block.newBlock.createText"
+                                        values={Object {}}
+                              />
+                    </WithStyles(DialogContentText)>
+                    <TextField
+                              error={false}
+                              label="block.field.data"
+                              multiline={true}
+                              onChange={[Function]}
+                              required={false}
+                              select={false}
+                              value=""
+                    />
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="block.editBlock.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Update block"
+                                        id="block.editBlock.update"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <VisuaSnackbar
+          open={false}
+          variant="success"
+>
+          <FormattedMessage
+                    defaultMessage="Block deleted."
+                    id="block.deletion.success"
+                    values={Object {}}
+          />
+</VisuaSnackbar>,
+        <WithStyles(Dialog)
+          onClose={[Function]}
+          open={false}
+>
+          <WithStyles(DialogTitle)>
+                    <FormattedMessage
+                              defaultMessage="Are you sure?"
+                              id="block.deletion.title"
+                              values={Object {}}
+                    />
+          </WithStyles(DialogTitle)>
+          <WithStyles(DialogContent)>
+                    <WithStyles(DialogContentText)>
+                              <FormattedMessage
+                                        defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                                        id="block.deletion.text"
+                                        values={Object {}}
+                              />
+                    </WithStyles(DialogContentText)>
+          </WithStyles(DialogContent)>
+          <WithStyles(DialogActions)>
+                    <WithStyles(Button)
+                              color="secondary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="block.deletion.cancel"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+                    <WithStyles(Button)
+                              color="primary"
+                              onClick={[Function]}
+                    >
+                              <FormattedMessage
+                                        defaultMessage="Delete"
+                                        id="block.deletion.confirm"
+                                        values={Object {}}
+                              />
+                    </WithStyles(Button)>
+          </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+        <WithStyles(ItemsListBase)
+          count={undefined}
+          itemToPrimary={[Function]}
+          itemToSecondary={[Function]}
+          items={undefined}
+          loadItems={[Function]}
+          loaded={undefined}
+          newButtonText="block.new"
+          onDeleteItem={[Function]}
+          onEditItem={[Function]}
+          onNewButton={[Function]}
+          title="block.title"
+/>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Error while creating block; please check the form."
+            id="block.creation.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Error while creating block; please check the form.",
+            "id": "block.creation.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Block created."
+            id="block.creation.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Block created.",
+            "id": "block.creation.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Create new block"
+                            id="block.newBlock.title"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)
+              className={undefined}
+>
+              <WithStyles(DialogContentText)>
+                            <FormattedMessage
+                                          defaultMessage="The data used in this form should be provided by the block's creator."
+                                          id="block.newBlock.createText"
+                                          values={Object {}}
+                            />
+              </WithStyles(DialogContentText)>
+              <TextField
+                            error={false}
+                            label="block.field.data"
+                            multiline={true}
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="block.newBlock.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Create block"
+                                          id="block.newBlock.create"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Create new block"
+                id="block.newBlock.title"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Create new block",
+                "id": "block.newBlock.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(DialogContentText)>
+                  <FormattedMessage
+                                    defaultMessage="The data used in this form should be provided by the block's creator."
+                                    id="block.newBlock.createText"
+                                    values={Object {}}
+                  />
+</WithStyles(DialogContentText)>,
+                <TextField
+                  error={false}
+                  label="block.field.data"
+                  multiline={true}
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="The data used in this form should be provided by the block's creator."
+                    id="block.newBlock.createText"
+                    values={Object {}}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "The data used in this form should be provided by the block's creator.",
+                    "id": "block.newBlock.createText",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "block.field.data",
+                  "multiline": true,
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="block.newBlock.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Create block"
+                                    id="block.newBlock.create"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="block.newBlock.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "block.newBlock.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Create block"
+                    id="block.newBlock.create"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Create block",
+                    "id": "block.newBlock.create",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Error while updating block; please check the form."
+            id="block.edition.error"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "error",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Error while updating block; please check the form.",
+            "id": "block.edition.error",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Block updated."
+            id="block.edition.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Block updated.",
+            "id": "block.edition.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Update block"
+                            id="block.editBlock.title"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)
+              className={undefined}
+>
+              <WithStyles(DialogContentText)>
+                            <FormattedMessage
+                                          defaultMessage="The data used in this form should be provided by the block's creator."
+                                          id="block.newBlock.createText"
+                                          values={Object {}}
+                            />
+              </WithStyles(DialogContentText)>
+              <TextField
+                            error={false}
+                            label="block.field.data"
+                            multiline={true}
+                            onChange={[Function]}
+                            required={false}
+                            select={false}
+                            value=""
+              />
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="block.editBlock.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Update block"
+                                          id="block.editBlock.update"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Update block"
+                id="block.editBlock.title"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Update block",
+                "id": "block.editBlock.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(DialogContentText)>
+                  <FormattedMessage
+                                    defaultMessage="The data used in this form should be provided by the block's creator."
+                                    id="block.newBlock.createText"
+                                    values={Object {}}
+                  />
+</WithStyles(DialogContentText)>,
+                <TextField
+                  error={false}
+                  label="block.field.data"
+                  multiline={true}
+                  onChange={[Function]}
+                  required={false}
+                  select={false}
+                  value=""
+/>,
+              ],
+              "className": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="The data used in this form should be provided by the block's creator."
+                    id="block.newBlock.createText"
+                    values={Object {}}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "The data used in this form should be provided by the block's creator.",
+                    "id": "block.newBlock.createText",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "error": false,
+                  "label": "block.field.data",
+                  "multiline": true,
+                  "onChange": [Function],
+                  "required": false,
+                  "select": false,
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="block.editBlock.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Update block"
+                                    id="block.editBlock.update"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="block.editBlock.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "block.editBlock.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Update block"
+                    id="block.editBlock.update"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Update block",
+                    "id": "block.editBlock.update",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <FormattedMessage
+            defaultMessage="Block deleted."
+            id="block.deletion.success"
+            values={Object {}}
+/>,
+          "open": false,
+          "variant": "success",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "defaultMessage": "Block deleted.",
+            "id": "block.deletion.success",
+            "values": Object {},
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <WithStyles(DialogTitle)>
+              <FormattedMessage
+                            defaultMessage="Are you sure?"
+                            id="block.deletion.title"
+                            values={Object {}}
+              />
+</WithStyles(DialogTitle)>,
+            <WithStyles(DialogContent)>
+              <WithStyles(DialogContentText)>
+                            <FormattedMessage
+                                          defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                                          id="block.deletion.text"
+                                          values={Object {}}
+                            />
+              </WithStyles(DialogContentText)>
+</WithStyles(DialogContent)>,
+            <WithStyles(DialogActions)>
+              <WithStyles(Button)
+                            color="secondary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Cancel"
+                                          id="block.deletion.cancel"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+              <WithStyles(Button)
+                            color="primary"
+                            onClick={[Function]}
+              >
+                            <FormattedMessage
+                                          defaultMessage="Delete"
+                                          id="block.deletion.confirm"
+                                          values={Object {}}
+                            />
+              </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+          ],
+          "onClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <FormattedMessage
+                defaultMessage="Are you sure?"
+                id="block.deletion.title"
+                values={Object {}}
+/>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "defaultMessage": "Are you sure?",
+                "id": "block.deletion.title",
+                "values": Object {},
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <WithStyles(DialogContentText)>
+                <FormattedMessage
+                                defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                                id="block.deletion.text"
+                                values={Object {}}
+                />
+</WithStyles(DialogContentText)>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                  id="block.deletion.text"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running.",
+                  "id": "block.deletion.text",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <WithStyles(Button)
+                  color="secondary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Cancel"
+                                    id="block.deletion.cancel"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+                <WithStyles(Button)
+                  color="primary"
+                  onClick={[Function]}
+>
+                  <FormattedMessage
+                                    defaultMessage="Delete"
+                                    id="block.deletion.confirm"
+                                    values={Object {}}
+                  />
+</WithStyles(Button)>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Cancel"
+                    id="block.deletion.cancel"
+                    values={Object {}}
+/>,
+                  "color": "secondary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Cancel",
+                    "id": "block.deletion.cancel",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Delete"
+                    id="block.deletion.confirm"
+                    values={Object {}}
+/>,
+                  "color": "primary",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Delete",
+                    "id": "block.deletion.confirm",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "count": undefined,
+          "itemToPrimary": [Function],
+          "itemToSecondary": [Function],
+          "items": undefined,
+          "loadItems": [Function],
+          "loaded": undefined,
+          "newButtonText": "block.new",
+          "onDeleteItem": [Function],
+          "onEditItem": [Function],
+          "onNewButton": [Function],
+          "title": "block.title",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Error while creating block; please check the form."
+                        id="block.creation.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="Block created."
+                        id="block.creation.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Create new block"
+                                    id="block.newBlock.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)
+                        className={undefined}
+            >
+                        <WithStyles(DialogContentText)>
+                                    <FormattedMessage
+                                                defaultMessage="The data used in this form should be provided by the block's creator."
+                                                id="block.newBlock.createText"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(DialogContentText)>
+                        <TextField
+                                    error={false}
+                                    label="block.field.data"
+                                    multiline={true}
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="block.newBlock.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Create block"
+                                                id="block.newBlock.create"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <VisuaSnackbar
+            open={false}
+            variant="error"
+>
+            <FormattedMessage
+                        defaultMessage="Error while updating block; please check the form."
+                        id="block.edition.error"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="Block updated."
+                        id="block.edition.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Update block"
+                                    id="block.editBlock.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)
+                        className={undefined}
+            >
+                        <WithStyles(DialogContentText)>
+                                    <FormattedMessage
+                                                defaultMessage="The data used in this form should be provided by the block's creator."
+                                                id="block.newBlock.createText"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(DialogContentText)>
+                        <TextField
+                                    error={false}
+                                    label="block.field.data"
+                                    multiline={true}
+                                    onChange={[Function]}
+                                    required={false}
+                                    select={false}
+                                    value=""
+                        />
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="block.editBlock.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Update block"
+                                                id="block.editBlock.update"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <VisuaSnackbar
+            open={false}
+            variant="success"
+>
+            <FormattedMessage
+                        defaultMessage="Block deleted."
+                        id="block.deletion.success"
+                        values={Object {}}
+            />
+</VisuaSnackbar>,
+          <WithStyles(Dialog)
+            onClose={[Function]}
+            open={false}
+>
+            <WithStyles(DialogTitle)>
+                        <FormattedMessage
+                                    defaultMessage="Are you sure?"
+                                    id="block.deletion.title"
+                                    values={Object {}}
+                        />
+            </WithStyles(DialogTitle)>
+            <WithStyles(DialogContent)>
+                        <WithStyles(DialogContentText)>
+                                    <FormattedMessage
+                                                defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                                                id="block.deletion.text"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(DialogContentText)>
+            </WithStyles(DialogContent)>
+            <WithStyles(DialogActions)>
+                        <WithStyles(Button)
+                                    color="secondary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="block.deletion.cancel"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+                        <WithStyles(Button)
+                                    color="primary"
+                                    onClick={[Function]}
+                        >
+                                    <FormattedMessage
+                                                defaultMessage="Delete"
+                                                id="block.deletion.confirm"
+                                                values={Object {}}
+                                    />
+                        </WithStyles(Button)>
+            </WithStyles(DialogActions)>
+</WithStyles(Dialog)>,
+          <WithStyles(ItemsListBase)
+            count={undefined}
+            itemToPrimary={[Function]}
+            itemToSecondary={[Function]}
+            items={undefined}
+            loadItems={[Function]}
+            loaded={undefined}
+            newButtonText="block.new"
+            onDeleteItem={[Function]}
+            onEditItem={[Function]}
+            onNewButton={[Function]}
+            title="block.title"
+/>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Error while creating block; please check the form."
+              id="block.creation.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Error while creating block; please check the form.",
+              "id": "block.creation.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Block created."
+              id="block.creation.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Block created.",
+              "id": "block.creation.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Create new block"
+                                id="block.newBlock.title"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)
+                className={undefined}
+>
+                <WithStyles(DialogContentText)>
+                                <FormattedMessage
+                                                defaultMessage="The data used in this form should be provided by the block's creator."
+                                                id="block.newBlock.createText"
+                                                values={Object {}}
+                                />
+                </WithStyles(DialogContentText)>
+                <TextField
+                                error={false}
+                                label="block.field.data"
+                                multiline={true}
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="block.newBlock.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Create block"
+                                                id="block.newBlock.create"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Create new block"
+                  id="block.newBlock.title"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Create new block",
+                  "id": "block.newBlock.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(DialogContentText)>
+                    <FormattedMessage
+                                        defaultMessage="The data used in this form should be provided by the block's creator."
+                                        id="block.newBlock.createText"
+                                        values={Object {}}
+                    />
+</WithStyles(DialogContentText)>,
+                  <TextField
+                    error={false}
+                    label="block.field.data"
+                    multiline={true}
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="The data used in this form should be provided by the block's creator."
+                      id="block.newBlock.createText"
+                      values={Object {}}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "The data used in this form should be provided by the block's creator.",
+                      "id": "block.newBlock.createText",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "block.field.data",
+                    "multiline": true,
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="block.newBlock.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Create block"
+                                        id="block.newBlock.create"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="block.newBlock.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "block.newBlock.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Create block"
+                      id="block.newBlock.create"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Create block",
+                      "id": "block.newBlock.create",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Error while updating block; please check the form."
+              id="block.edition.error"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "error",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Error while updating block; please check the form.",
+              "id": "block.edition.error",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Block updated."
+              id="block.edition.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Block updated.",
+              "id": "block.edition.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Update block"
+                                id="block.editBlock.title"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)
+                className={undefined}
+>
+                <WithStyles(DialogContentText)>
+                                <FormattedMessage
+                                                defaultMessage="The data used in this form should be provided by the block's creator."
+                                                id="block.newBlock.createText"
+                                                values={Object {}}
+                                />
+                </WithStyles(DialogContentText)>
+                <TextField
+                                error={false}
+                                label="block.field.data"
+                                multiline={true}
+                                onChange={[Function]}
+                                required={false}
+                                select={false}
+                                value=""
+                />
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="block.editBlock.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Update block"
+                                                id="block.editBlock.update"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Update block"
+                  id="block.editBlock.title"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Update block",
+                  "id": "block.editBlock.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(DialogContentText)>
+                    <FormattedMessage
+                                        defaultMessage="The data used in this form should be provided by the block's creator."
+                                        id="block.newBlock.createText"
+                                        values={Object {}}
+                    />
+</WithStyles(DialogContentText)>,
+                  <TextField
+                    error={false}
+                    label="block.field.data"
+                    multiline={true}
+                    onChange={[Function]}
+                    required={false}
+                    select={false}
+                    value=""
+/>,
+                ],
+                "className": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="The data used in this form should be provided by the block's creator."
+                      id="block.newBlock.createText"
+                      values={Object {}}
+/>,
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "The data used in this form should be provided by the block's creator.",
+                      "id": "block.newBlock.createText",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "error": false,
+                    "label": "block.field.data",
+                    "multiline": true,
+                    "onChange": [Function],
+                    "required": false,
+                    "select": false,
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="block.editBlock.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Update block"
+                                        id="block.editBlock.update"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="block.editBlock.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "block.editBlock.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Update block"
+                      id="block.editBlock.update"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Update block",
+                      "id": "block.editBlock.update",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <FormattedMessage
+              defaultMessage="Block deleted."
+              id="block.deletion.success"
+              values={Object {}}
+/>,
+            "open": false,
+            "variant": "success",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "defaultMessage": "Block deleted.",
+              "id": "block.deletion.success",
+              "values": Object {},
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <WithStyles(DialogTitle)>
+                <FormattedMessage
+                                defaultMessage="Are you sure?"
+                                id="block.deletion.title"
+                                values={Object {}}
+                />
+</WithStyles(DialogTitle)>,
+              <WithStyles(DialogContent)>
+                <WithStyles(DialogContentText)>
+                                <FormattedMessage
+                                                defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                                                id="block.deletion.text"
+                                                values={Object {}}
+                                />
+                </WithStyles(DialogContentText)>
+</WithStyles(DialogContent)>,
+              <WithStyles(DialogActions)>
+                <WithStyles(Button)
+                                color="secondary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Cancel"
+                                                id="block.deletion.cancel"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+                <WithStyles(Button)
+                                color="primary"
+                                onClick={[Function]}
+                >
+                                <FormattedMessage
+                                                defaultMessage="Delete"
+                                                id="block.deletion.confirm"
+                                                values={Object {}}
+                                />
+                </WithStyles(Button)>
+</WithStyles(DialogActions)>,
+            ],
+            "onClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <FormattedMessage
+                  defaultMessage="Are you sure?"
+                  id="block.deletion.title"
+                  values={Object {}}
+/>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "defaultMessage": "Are you sure?",
+                  "id": "block.deletion.title",
+                  "values": Object {},
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <WithStyles(DialogContentText)>
+                  <FormattedMessage
+                                    defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                                    id="block.deletion.text"
+                                    values={Object {}}
+                  />
+</WithStyles(DialogContentText)>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <FormattedMessage
+                    defaultMessage="Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running."
+                    id="block.deletion.text"
+                    values={Object {}}
+/>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "defaultMessage": "Do you really want to delete this block? You will not be able to undo this action. Any pipeline including this block will stop running.",
+                    "id": "block.deletion.text",
+                    "values": Object {},
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <WithStyles(Button)
+                    color="secondary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Cancel"
+                                        id="block.deletion.cancel"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                  <WithStyles(Button)
+                    color="primary"
+                    onClick={[Function]}
+>
+                    <FormattedMessage
+                                        defaultMessage="Delete"
+                                        id="block.deletion.confirm"
+                                        values={Object {}}
+                    />
+</WithStyles(Button)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Cancel"
+                      id="block.deletion.cancel"
+                      values={Object {}}
+/>,
+                    "color": "secondary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Cancel",
+                      "id": "block.deletion.cancel",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <FormattedMessage
+                      defaultMessage="Delete"
+                      id="block.deletion.confirm"
+                      values={Object {}}
+/>,
+                    "color": "primary",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "defaultMessage": "Delete",
+                      "id": "block.deletion.confirm",
+                      "values": Object {},
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "count": undefined,
+            "itemToPrimary": [Function],
+            "itemToSecondary": [Function],
+            "items": undefined,
+            "loadItems": [Function],
+            "loaded": undefined,
+            "newButtonText": "block.new",
+            "onDeleteItem": [Function],
+            "onEditItem": [Function],
+            "onNewButton": [Function],
+            "title": "block.title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getSnapshotBeforeUpdate": true,
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
