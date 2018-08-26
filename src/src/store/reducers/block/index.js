@@ -14,7 +14,8 @@ const initialState = {
     },
     deletion: {
         haveResult: false
-    }
+    },
+    all: []
 };
 
 export default function reducer(state = initialState, action) {
@@ -98,6 +99,11 @@ export default function reducer(state = initialState, action) {
                 deletion: {
                     haveResult: false,
                 }
+            };
+        case 'block.onAll':
+            return {
+                ...state,
+                all: action.block
             };
         default:
             return state;

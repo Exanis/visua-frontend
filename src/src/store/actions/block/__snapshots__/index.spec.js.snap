@@ -28,11 +28,24 @@ Object {
 }
 `;
 
+exports[`Block Actions getAllBlocks 1`] = `
+Object {
+  "type": "block.all",
+}
+`;
+
 exports[`Block Actions getBlockList 1`] = `
 Object {
   "page": 1,
   "search": "test",
   "type": "block.list",
+}
+`;
+
+exports[`Block Actions onAllBlockList 1`] = `
+Object {
+  "block": undefined,
+  "type": "block.onAll",
 }
 `;
 

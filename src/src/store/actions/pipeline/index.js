@@ -40,3 +40,55 @@ export function resetPipelineCreateState() {
         type: 'pipeline.create.reset'
     };
 }
+
+export function setCurrentPipeline(pipeline) {
+    return {
+        type: 'pipeline.retrieve',
+        pipeline: pipeline
+    }
+}
+
+export function onPipelineRetrieveSuccess(pipeline) {
+    return {
+        type: 'pipeline.select.success',
+        pipeline: pipeline
+    }
+}
+
+export function onPipelineRetrieveError() {
+    return {
+        type: 'pipeline.select.error',
+    }
+}
+
+export function resetPipelineRetrieveState() {
+    return {
+        type: 'pipeline.select.reset'
+    }
+}
+
+export function pipelineModelUpdate(uuid, model) {
+    return {
+        type: 'pipeline.model.update',
+        uuid: uuid,
+        model: model
+    };
+}
+
+export function onPipelineModelUpdate() {
+    return {
+        type: 'pipeline.model.update.success'
+    };
+}
+
+export function onPipelineModelError() {
+    return {
+        type: 'pipeline.model.update.error'
+    };
+}
+
+export function resetPipelineModelUpdate() {
+    return {
+        type: 'pipeline.model.update.reset'
+    };
+}

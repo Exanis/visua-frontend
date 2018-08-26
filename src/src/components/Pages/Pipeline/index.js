@@ -16,6 +16,7 @@ import {FormattedMessage, defineMessages, injectIntl} from 'react-intl';
 import ItemList from '../../Library/ItemsList';
 
 import * as PipelineActions from '../../../store/actions/pipeline';
+import * as NavigationActions from '../../../store/actions/navigation';
 
 const messages = defineMessages({
     title: {
@@ -124,6 +125,10 @@ export class Pipeline extends React.Component {
         </Dialog>
     };
 
+    selectPipeline = (pipeline) => {
+        this.props.navigationActions.redirect('/editor/' + pipeline.uuid);
+    };
+
     render() {
         const { formatMessage } = this.props.intl;
 
@@ -143,6 +148,7 @@ export class Pipeline extends React.Component {
                 </Snackbar>
                 {this.displayNewPipeline()}
                 <ItemList
+                    onClick={this.selectPipeline}
                     onNewButton={this.openNewPipelineDialog}
                     newButtonText={formatMessage(messages.newButtonTitle)}
                     title={formatMessage(messages.title)}
@@ -167,6 +173,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         pipelineActions: bindActionCreators(PipelineActions, dispatch),
+        navigationActions: bindActionCreators(NavigationActions, dispatch),
     }
 };
 

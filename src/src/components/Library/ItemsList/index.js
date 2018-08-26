@@ -69,16 +69,24 @@ export class ItemsListBase extends React.Component {
         const actionButton = (item, icon, func) => func !== undefined && <IconButton onClick={() => func(item)}>
             {icon}
         </IconButton>;
-        const items = this.props.items.map(item => <ListItem key={item.uuid} button>
-                <ListItemText
-                    primary={this.props.itemToPrimary(item)}
-                    secondary={this.props.itemToSecondary(item)}
-                />
-                <ListItemSecondaryAction>
-                    {actionButton(item, <EditIcon/>, this.props.onEditItem)}
-                    {actionButton(item, <DeleteIcon/>, this.props.onDeleteItem)}
-                </ListItemSecondaryAction>
-            </ListItem>
+
+        const items = this.props.items.map(item => {
+                const clickProps = {};
+
+                if (this.props.onClick)
+                    clickProps['onClick'] = () => this.props.onClick(item);
+
+                return <ListItem key={item.uuid} button {...clickProps}>
+                    <ListItemText
+                        primary={this.props.itemToPrimary(item)}
+                        secondary={this.props.itemToSecondary(item)}
+                    />
+                    <ListItemSecondaryAction>
+                        {actionButton(item, <EditIcon/>, this.props.onEditItem)}
+                        {actionButton(item, <DeleteIcon/>, this.props.onDeleteItem)}
+                    </ListItemSecondaryAction>
+                </ListItem>;
+            }
         );
 
         return <List>
@@ -136,6 +144,7 @@ ItemList.propType = {
     itemToSecondary: PropTypes.func.isRequired,
     onEditItem: PropTypes.func,
     onDeleteItem: PropTypes.func,
+    onClick: PropTypes.func,
     count: PropTypes.number.required,
     items: PropTypes.arrayOf(PropTypes.object).isRequired,
     loaded: PropTypes.bool.isRequired,

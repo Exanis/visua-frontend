@@ -58,6 +58,10 @@ ShallowWrapper {
                                 />
                                 <Connect(PrivateRouteComponent)
                                         component={[Function]}
+                                        path="/editor/:pipelineId"
+                                />
+                                <Connect(PrivateRouteComponent)
+                                        component={[Function]}
                                         exact={true}
                                         path="/profile"
                                 />
@@ -125,6 +129,10 @@ ShallowWrapper {
                               />
                               <Connect(PrivateRouteComponent)
                                         component={[Function]}
+                                        path="/editor/:pipelineId"
+                              />
+                              <Connect(PrivateRouteComponent)
+                                        component={[Function]}
                                         exact={true}
                                         path="/profile"
                               />
@@ -160,6 +168,10 @@ ShallowWrapper {
                                     component={[Function]}
                                     exact={true}
                                     path="/home"
+                        />
+                        <Connect(PrivateRouteComponent)
+                                    component={[Function]}
+                                    path="/editor/:pipelineId"
                         />
                         <Connect(PrivateRouteComponent)
                                     component={[Function]}
@@ -216,6 +228,10 @@ ShallowWrapper {
               />
               <Connect(PrivateRouteComponent)
                             component={[Function]}
+                            path="/editor/:pipelineId"
+              />
+              <Connect(PrivateRouteComponent)
+                            component={[Function]}
                             exact={true}
                             path="/profile"
               />
@@ -247,6 +263,10 @@ ShallowWrapper {
                   component={[Function]}
                   exact={true}
                   path="/home"
+/>,
+                <Connect(PrivateRouteComponent)
+                  component={[Function]}
+                  path="/editor/:pipelineId"
 />,
                 <Connect(PrivateRouteComponent)
                   component={[Function]}
@@ -288,6 +308,18 @@ ShallowWrapper {
                   "component": [Function],
                   "exact": true,
                   "path": "/home",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "path": "/editor/:pipelineId",
                 },
                 "ref": null,
                 "rendered": null,
@@ -388,6 +420,10 @@ ShallowWrapper {
                                         />
                                         <Connect(PrivateRouteComponent)
                                                   component={[Function]}
+                                                  path="/editor/:pipelineId"
+                                        />
+                                        <Connect(PrivateRouteComponent)
+                                                  component={[Function]}
                                                   exact={true}
                                                   path="/profile"
                                         />
@@ -455,6 +491,10 @@ ShallowWrapper {
                                     />
                                     <Connect(PrivateRouteComponent)
                                                 component={[Function]}
+                                                path="/editor/:pipelineId"
+                                    />
+                                    <Connect(PrivateRouteComponent)
+                                                component={[Function]}
                                                 exact={true}
                                                 path="/profile"
                                     />
@@ -490,6 +530,10 @@ ShallowWrapper {
                                           component={[Function]}
                                           exact={true}
                                           path="/home"
+                            />
+                            <Connect(PrivateRouteComponent)
+                                          component={[Function]}
+                                          path="/editor/:pipelineId"
                             />
                             <Connect(PrivateRouteComponent)
                                           component={[Function]}
@@ -546,6 +590,10 @@ ShallowWrapper {
                 />
                 <Connect(PrivateRouteComponent)
                                 component={[Function]}
+                                path="/editor/:pipelineId"
+                />
+                <Connect(PrivateRouteComponent)
+                                component={[Function]}
                                 exact={true}
                                 path="/profile"
                 />
@@ -577,6 +625,10 @@ ShallowWrapper {
                     component={[Function]}
                     exact={true}
                     path="/home"
+/>,
+                  <Connect(PrivateRouteComponent)
+                    component={[Function]}
+                    path="/editor/:pipelineId"
 />,
                   <Connect(PrivateRouteComponent)
                     component={[Function]}
@@ -618,6 +670,18 @@ ShallowWrapper {
                     "component": [Function],
                     "exact": true,
                     "path": "/home",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "path": "/editor/:pipelineId",
                   },
                   "ref": null,
                   "rendered": null,
