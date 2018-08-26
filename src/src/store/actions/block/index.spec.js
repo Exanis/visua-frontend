@@ -40,4 +40,10 @@ describe('Block Actions', () => {
     it('resetDeleteBlockState', () => {
         expect(Actions.resetDeleteBlockState()).toMatchSnapshot();
     });
+    it('getAllBlocks', () => {
+        expect(Actions.getAllBlocks()).toMatchSnapshot();
+    });
+    it('onAllBlockList', () => {
+        expect(Actions.onAllBlockList()).toMatchSnapshot();
+    });
 });

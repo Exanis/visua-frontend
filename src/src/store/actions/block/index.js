@@ -90,3 +90,16 @@ export function resetDeleteBlockState() {
         type: 'block.delete.reset',
     };
 }
+
+export function getAllBlocks() {
+    return {
+        type: 'block.all'
+    };
+}
+
+export function onAllBlockList(block) {
+    return {
+        type: 'block.onAll',
+        block: block
+    };
+}

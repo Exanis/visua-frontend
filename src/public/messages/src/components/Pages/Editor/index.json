@@ -1,0 +1,22 @@
+[
+  {
+    "id": "editor.block.name",
+    "defaultMessage": "Block name"
+  },
+  {
+    "id": "pipeline.model.update.error",
+    "defaultMessage": "Error while saving pipeline; please try again (are you still logged in?)"
+  },
+  {
+    "id": "pipeline.model.update.success",
+    "defaultMessage": "Pipeline saved."
+  },
+  {
+    "id": "pipeline.model.settings.title",
+    "defaultMessage": "Block settings"
+  },
+  {
+    "id": "editor.save",
+    "defaultMessage": "Save"
+  }
+]

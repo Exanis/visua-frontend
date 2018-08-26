@@ -4,6 +4,7 @@ import * as blockAction from '../../actions/block';
 
 export default function* watcherSaga() {
     yield takeLatest('block.list', blockListSaga);
+    yield takeLatest('block.all', allBlockListSaga);
     yield takeLatest('block.create', blockCreateSaga);
     yield takeLatest('block.edit', blockEditSaga);
     yield takeLatest('block.delete', blockDeleteSaga);
@@ -18,6 +19,20 @@ function* blockListSaga(action) {
         const response = yield call(() => fetchBlockList(action.page, action.search));
 
         yield put(blockAction.onBlockList(response.data));
+    } catch (_) {
+
+    }
+}
+
+function fetchAllBlockList() {
+    return axios.get('/api/project/block/all/');
+}
+
+function* allBlockListSaga() {
+    try {
+        const response = yield call(fetchAllBlockList);
+
+        yield put(blockAction.onAllBlockList(response.data));
     } catch (_) {
 
     }

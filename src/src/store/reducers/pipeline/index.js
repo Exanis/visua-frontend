@@ -2,10 +2,20 @@ const initialState = {
     pipelines: [],
     count: 0,
     loaded: false,
+    pipeline: null,
     creation: {
         haveResult: false,
         success: false,
         errors: []
+    },
+    retrieve: {
+        pipeline: null,
+        haveResult: false,
+        success: false
+    },
+    modelUpdate: {
+        haveResult: false,
+        success: false
     }
 };
 
@@ -52,6 +62,63 @@ export default function reducer(state = initialState, action) {
                     haveResult: false,
                     success: false,
                     errors: action.errors
+                }
+            };
+
+        case 'pipeline.select.success':
+            return {
+                ...state,
+                retrieve: {
+                    pipeline: action.pipeline,
+                    haveResult: true,
+                    success: true
+                }
+            };
+
+        case 'pipeline.select.error':
+            return {
+                ...state,
+                retrieve: {
+                    pipeline: null,
+                    haveResult: true,
+                    success: false
+                }
+            };
+
+        case 'pipeline.select.reset':
+            return {
+                ...state,
+                retrieve: {
+                    pipeline: null,
+                    haveResult: false,
+                    success: false
+                }
+            };
+
+        case 'pipeline.model.update.success':
+            return {
+                ...state,
+                modelUpdate: {
+                    haveResult: true,
+                    success: true
+                }
+            };
+
+        case 'pipeline.model.update.error':
+            return {
+                ...state,
+                modelUpdate: {
+                    haveResult: true,
+                    success: false
+                }
+            };
+
+        case 'pipeline.model.update.reset':
+            return {
+                ...state,
+                modelUpdate: {
+                    haveResult: false,
+                    success: false
                 }
             };
 

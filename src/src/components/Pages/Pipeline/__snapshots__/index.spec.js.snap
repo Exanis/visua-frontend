@@ -110,6 +110,7 @@ ShallowWrapper {
           loadItems={[Function]}
           loaded={undefined}
           newButtonText={undefined}
+          onClick={[Function]}
           onNewButton={[Function]}
           title={undefined}
 />,
@@ -392,6 +393,7 @@ ShallowWrapper {
           "loadItems": [Function],
           "loaded": undefined,
           "newButtonText": undefined,
+          "onClick": [Function],
           "onNewButton": [Function],
           "title": undefined,
         },
@@ -481,6 +483,7 @@ ShallowWrapper {
             loadItems={[Function]}
             loaded={undefined}
             newButtonText={undefined}
+            onClick={[Function]}
             onNewButton={[Function]}
             title={undefined}
 />,
@@ -763,6 +766,7 @@ ShallowWrapper {
             "loadItems": [Function],
             "loaded": undefined,
             "newButtonText": undefined,
+            "onClick": [Function],
             "onNewButton": [Function],
             "title": undefined,
           },
@@ -902,6 +906,7 @@ ShallowWrapper {
           loadItems={[Function]}
           loaded={undefined}
           newButtonText={undefined}
+          onClick={[Function]}
           onNewButton={[Function]}
           title={undefined}
 />,
@@ -1184,6 +1189,7 @@ ShallowWrapper {
           "loadItems": [Function],
           "loaded": undefined,
           "newButtonText": undefined,
+          "onClick": [Function],
           "onNewButton": [Function],
           "title": undefined,
         },
@@ -1273,6 +1279,7 @@ ShallowWrapper {
             loadItems={[Function]}
             loaded={undefined}
             newButtonText={undefined}
+            onClick={[Function]}
             onNewButton={[Function]}
             title={undefined}
 />,
@@ -1555,6 +1562,7 @@ ShallowWrapper {
             "loadItems": [Function],
             "loaded": undefined,
             "newButtonText": undefined,
+            "onClick": [Function],
             "onNewButton": [Function],
             "title": undefined,
           },
