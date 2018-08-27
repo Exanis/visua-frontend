@@ -10,6 +10,9 @@ import {
     onUpdateUserError
 } from "../../actions/user";
 
+import { delay } from 'redux-saga';
+import { redirect } from '../../actions/navigation';
+
 export default function* watcherSaga() {
     yield takeLatest("user.request", userRequestSaga);
     yield takeLatest("user.login", userLoginSaga);
@@ -26,6 +29,7 @@ function* userRequestSaga() {
         const response = yield call(fetchUserData);
 
         yield put(onUserData(response.data));
+        yield keepUserLoggedIn();
     } catch(error) {
         yield put(onUserError());
     }
@@ -93,5 +97,20 @@ function* userUpdateSaga(action) {
         yield put(getCurrentUserData());
     } catch (error) {
         yield put(onUpdateUserError(error.response.data));
+    }
+}
+
+function refreshUserToken() {
+    return axios.post('/api/user/auth/refresh/');
+}
+
+function *keepUserLoggedIn() {
+    try {
+        while (true) {
+            yield call(refreshUserToken);
+            yield delay(180000);
+        }
+    } catch (e) {
+        yield put(redirect('/'));
     }
 }
