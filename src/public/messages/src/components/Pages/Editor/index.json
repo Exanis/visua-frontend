@@ -4,6 +4,10 @@
     "defaultMessage": "Block name"
   },
   {
+    "id": "editor.entryPoint.field",
+    "defaultMessage": "Pipeline entry point"
+  },
+  {
     "id": "pipeline.model.update.error",
     "defaultMessage": "Error while saving pipeline; please try again (are you still logged in?)"
   },
@@ -14,6 +18,14 @@
   {
     "id": "pipeline.model.settings.title",
     "defaultMessage": "Block settings"
+  },
+  {
+    "id": "pipeline.model.pipelineSettings.title",
+    "defaultMessage": "Pipeline settings"
+  },
+  {
+    "id": "editor.settings",
+    "defaultMessage": "Settings"
   },
   {
     "id": "editor.save",

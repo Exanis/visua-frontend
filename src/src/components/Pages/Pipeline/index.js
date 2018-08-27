@@ -69,7 +69,7 @@ export class Pipeline extends React.Component {
     openNewPipelineDialog = () => this.setState({newPipelineDisplay: true});
     closeNewPipelineDialog = () => this.setState({newPipelineDisplay: false});
 
-    createNewPipeline = () => this.props.pipelineActions.createPipeline(this.state.newPipelineName);
+    createNewPipeline = () => this.props.pipelineActions.createPipeline(this.state.newPipelineName, this.state.page, this.state.search);
 
     componentDidUpdate() {
         if (this.props.pipeline.creation.haveResult) {

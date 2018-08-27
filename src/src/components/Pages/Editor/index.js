@@ -11,12 +11,16 @@ import Typography from '@material-ui/core/Typography';
 import AddIcon from '@material-ui/icons/Add';
 import Drawer from '@material-ui/core/Drawer';
 import SaveIcon from '@material-ui/icons/Save';
+import Settings from '@material-ui/icons/Settings';
 import Snackbar from '../../Library/Snackbar';
 import TextField from '@material-ui/core/TextField';
 import HandIcon from '@material-ui/icons/TouchApp';
 import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
 
 import * as SRD from 'storm-react-diagrams';
 import 'storm-react-diagrams/dist/style.min.css';
@@ -31,6 +35,10 @@ const messages = defineMessages({
     blockNameField: {
         id: 'editor.block.name',
         defaultMessage: 'Block name'
+    },
+    entryPointField: {
+        id: 'editor.entryPoint.field',
+        defaultMessage: 'Pipeline entry point'
     }
 });
 
@@ -74,6 +82,9 @@ const styles = theme => ({
     },
     padded: {
         padding: 15
+    },
+    spaced: {
+        marginLeft: 10
     }
 });
 
@@ -81,9 +92,13 @@ export class EditorPage extends React.Component {
     state = {
         pipeline: {},
         displayAdd: false,
-        displayEdit: false,
+        displaySettings: false,
         selectedBlock: null,
         selectionMenu: {},
+        selectEntryPointTarget: null,
+        offsetX: false,
+        offsetY: false,
+        zoom: false,
     };
 
     componentDidMount() {
@@ -111,6 +126,17 @@ export class EditorPage extends React.Component {
     getBlock = (uuid) => lodash.find(this.props.block.all, {uuid: uuid});
     blockToColor = uuid => 'rgb(' + uuid.charCodeAt(0) + ', ' + uuid.charCodeAt(1) + ', ' + uuid.charCodeAt(2) + ')';
 
+    onZoomUpdated = (ev) => {
+        this.setState({zoom: ev.zoom});
+    };
+
+    onOffsetUpdated = (ev) => {
+        this.setState({
+            offsetX: ev.offsetX,
+            offsetY: ev.offsetY
+        });
+    };
+
     createDiagramEngine = () => {
         const engine = new SRD.DiagramEngine();
         engine.installDefaultFactories();
@@ -119,6 +145,18 @@ export class EditorPage extends React.Component {
         const inputs = {};
         const outputs = {};
 
+        if (this.state.pipeline.model) {
+            if (this.state.offsetX !== false && this.state.offsetY !== false)
+                model.setOffset(this.state.offsetX, this.state.offsetY);
+            if (this.state.zoom !== false)
+                model.setZoomLevel(this.state.zoom);
+        }
+
+        model.addListener({
+            zoomUpdated: this.onZoomUpdated,
+            offsetUpdated: this.onOffsetUpdated
+        });
+
         if (this.state.pipeline.model && this.state.pipeline.model.blocks) {
             for (const blockInfo of this.state.pipeline.model.blocks) {
                 const block = this.getBlock(blockInfo.block);
@@ -126,7 +164,12 @@ export class EditorPage extends React.Component {
                 if (block) {
                     const blockData = JSON.parse(block.data);
                     const node = new SRD.DefaultNodeModel(
-                        <div onDoubleClick={() => this.setState({selectedBlock: {uuid: blockInfo.uuid, info: blockData}})}>{blockInfo.name}</div>,
+                        <div onDoubleClick={() => this.setState({
+                            selectedBlock: {
+                                uuid: blockInfo.uuid,
+                                info: blockData
+                            }
+                        })}>{blockInfo.name}</div>,
                         this.blockToColor(block.uuid)
                     );
                     node.blockId = blockInfo.uuid;
@@ -166,8 +209,38 @@ export class EditorPage extends React.Component {
         return engine;
     };
 
+    checkDependencyLoop = (links, passed, current) => {
+        const newPassed = [...passed, current];
+
+        if (!links[current])
+            return false;
+
+        for (const link of links[current]) {
+            if (passed.indexOf(link) !== -1)
+                return true;
+            if (this.checkDependencyLoop(links, newPassed, link))
+                return true;
+        }
+        return false;
+    };
+
+    checkDependency = (linksList, newLink) => {
+        const links = {};
+
+        for (const link of linksList) {
+            if (!links[link.to.uuid])
+                links[link.to.uuid] = [];
+            links[link.to.uuid].push(link.from.uuid);
+        }
+
+        return this.checkDependencyLoop(links, [], newLink);
+    };
+
     createLink = (ev) => () => {
         if (ev.link.sourcePort === null || ev.link.targetPort === null)
+            return;
+
+        if (ev.link.sourcePort.parent.blockId === ev.link.targetPort.parent.blockId)
             return;
 
         if (this.state.pipeline.model && this.state.pipeline.model.links) {
@@ -196,7 +269,13 @@ export class EditorPage extends React.Component {
             }
         };
 
+        const checkLinks = [...pipelineData.model.links, linkInfo];
+
+        if (this.checkDependency(checkLinks, linkInfo.to.uuid))
+            return;
+
         pipelineData.model.links.push(linkInfo);
+
         this.setState({
             pipeline: pipelineData
         });
@@ -255,6 +334,7 @@ export class EditorPage extends React.Component {
             this.setState({pipeline: pipelineData});
         }
     };
+
     onRemoveBlock = (ev) => {
         if (ev.isCreated)
             return;
@@ -287,11 +367,16 @@ export class EditorPage extends React.Component {
             ...this.state.pipeline,
             model: {
                 ...this.state.pipeline.model,
-                blocks: this.state.pipeline.model.blocks ? this.state.pipeline.model.blocks : []
+                blocks: this.state.pipeline.model.blocks ? this.state.pipeline.model.blocks : [],
+                order: this.state.pipeline.model.order ? this.state.pipeline.model.order : [],
             }
         };
 
         pipelineData.model.blocks.push(blockData);
+
+        if (!pipelineData.model.entryPoint || !pipelineData.model.blocks.filter(block => block.uuid === pipelineData.model.entryPoint))
+            pipelineData.model.entryPoint = blockData.uuid;
+
         this.setState({
             displayAdd: false,
             pipeline: pipelineData
@@ -327,9 +412,8 @@ export class EditorPage extends React.Component {
         if (ev.target.value.indexOf('$') === -1)
             targetBlock.name = ev.target.value;
 
-        if (targetBlock.name === '')
-        {
-            const block = this.getBlock(targetBlock.block)
+        if (targetBlock.name === '') {
+            const block = this.getBlock(targetBlock.block);
 
             targetBlock.name = block.name;
         }
@@ -385,6 +469,31 @@ export class EditorPage extends React.Component {
         close();
     };
 
+    getEntryPointName = () => {
+        if (!this.state.pipeline.model || !this.state.pipeline.model.entryPoint)
+            return '';
+        const targetBlock = this.state.pipeline.model.blocks.find(block => block.uuid === this.state.pipeline.model.entryPoint);
+
+        if (!targetBlock)
+            return '';
+        return targetBlock.name;
+    };
+
+    selectEntryPoint = (block) => () => {
+        const pipelineData = {
+            ...this.state.pipeline,
+            model: {
+                ...this.state.pipeline.model,
+                entryPoint: block.uuid
+            }
+        };
+
+        this.setState({
+            pipeline: pipelineData,
+            selectEntryPointTarget: null
+        });
+    };
+
     renderEditForm = () => {
         if (this.state.selectedBlock === null)
             return false;
@@ -402,14 +511,15 @@ export class EditorPage extends React.Component {
                 <HandIcon/>
             </IconButton>
             <Menu
-                open={this.state.selectionMenu[targetBlock.uuid + '.' + v]}
+                open={Boolean(this.state.selectionMenu[targetBlock.uuid + '.' + v])}
                 anchorEl={this.state.selectionMenu[targetBlock.uuid + '.' + v]}
                 onClose={this.setSelectOutputVar(targetBlock.uuid, v, false)}
-                >
+            >
                 {
                     this.createOutputList().map(opt => {
-                        return <MenuItem key={opt.block.uuid + '.' + opt.varName} onClick={this.selectInMenu(targetBlock, v, opt, this.setSelectOutputVar(targetBlock.uuid, v, false))}>
-                            { opt.block.name }: { opt.varName }
+                        return <MenuItem key={opt.block.uuid + '.' + opt.varName}
+                                         onClick={this.selectInMenu(targetBlock, v, opt, this.setSelectOutputVar(targetBlock.uuid, v, false))}>
+                            {opt.block.name}: {opt.varName}
                         </MenuItem>;
                     })
                 }
@@ -421,15 +531,17 @@ export class EditorPage extends React.Component {
                 label={formatMessage(messages.blockNameField)}
                 value={targetBlock.name}
                 onChange={this.onEditBlockName(targetBlock)}
-                />
+            />
             {content}
         </div>
     };
 
     render() {
+        const {formatMessage} = this.props.intl;
+
         return <div className={this.props.classes.container}>
             <Button variant="fab" color="primary" onClick={() => this.setState({displayAdd: true})}
-                    className={this.state.displayAdd || this.state.selectedBlock !== null ? this.props.classes.hidden : this.props.classes.button}>
+                    className={this.state.displaySettings || this.state.displayAdd || this.state.selectedBlock !== null ? this.props.classes.hidden : this.props.classes.button}>
                 <AddIcon/>
             </Button>
             <Snackbar open={this.props.pipeline.modelUpdate.haveResult && !this.props.pipeline.modelUpdate.success}
@@ -455,8 +567,45 @@ export class EditorPage extends React.Component {
                                 id={'pipeline.model.settings.title'}
                                 defaultMessage={'Block settings'}
                             />
-                        </Typography><br />
+                        </Typography><br/>
                         {this.renderEditForm()}
+                    </div>
+                </div>
+            </Drawer>
+            <Drawer anchor={'right'} open={this.state.displaySettings}
+                    onClose={() => this.setState({displaySettings: false})}>
+                <div className={this.props.classes.padded}>
+                    <div className={this.props.classes.vertical}>
+                        <Typography variant='title'>
+                            <FormattedMessage
+                                id={'pipeline.model.pipelineSettings.title'}
+                                defaultMessage={'Pipeline settings'}
+                            />
+                        </Typography><br/>
+                        <List component='nav'>
+                            <ListItem
+                                button
+                                aria-haspopup={true}
+                                aria-controls='lock-menu'
+                                onClick={(ev) => this.setState({selectEntryPointTarget: ev.currentTarget})}
+                            >
+                                <ListItemText
+                                    primary={formatMessage(messages.entryPointField)}
+                                    secondary={this.getEntryPointName()}
+                                />
+                            </ListItem>
+                        </List>
+                        <Menu
+                            anchorEl={this.state.selectEntryPointTarget}
+                            open={Boolean(this.state.selectEntryPointTarget)}
+                            onClose={() => this.setState({selectEntryPointTarget: null})}
+                        >
+                            {this.state.pipeline && this.state.pipeline.model && this.state.pipeline.model.blocks && this.state.pipeline.model.blocks.map(block =>
+                                <MenuItem key={block.uuid} selected={this.state.pipeline.entryPoint === block.uuid}
+                                          onClick={this.selectEntryPoint(block)}>
+                                    {block.name}
+                                </MenuItem>)}
+                        </Menu>
                     </div>
                 </div>
             </Drawer>
@@ -479,7 +628,16 @@ export class EditorPage extends React.Component {
                     <Typography variant={'title'} className={this.props.classes.extends}>
                         {this.state.pipeline.name}
                     </Typography>
-                    <Button color='primary' onClick={this.savePipeline} variant="contained">
+                    <Button color='primary' onClick={() => this.setState({displaySettings: true})}
+                            className={this.props.classes.spaced}>
+                        <Settings className={this.props.classes.leftIcon}/>
+                        <FormattedMessage
+                            id={'editor.settings'}
+                            defaultMessage={'Settings'}
+                        />
+                    </Button>
+                    <Button color='primary' onClick={this.savePipeline} variant="contained"
+                            className={this.props.classes.spaced}>
                         <SaveIcon className={this.props.classes.leftIcon}/>
                         <FormattedMessage
                             id={'editor.save'}
