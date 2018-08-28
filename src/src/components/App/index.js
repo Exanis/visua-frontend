@@ -13,6 +13,7 @@ import Profile from "../Pages/Profile";
 import Users from '../Pages/Users';
 import Pipeline from '../Pages/Pipeline';
 import Block from '../Pages/Block';
+import Runner from '../Pages/Runner';
 import Editor from '../Pages/Editor';
 
 const language =
@@ -71,6 +72,7 @@ class App extends React.Component {
 
                             <StaffRoute exact path={'/users'} component={Users} />
                             <StaffRoute exact path={'/block'} component={Block} />
+                            <StaffRoute exact path={'/runner'} component={Runner} />
                         </Switch>
                     </Layout>
                 </ConnectedRouter>

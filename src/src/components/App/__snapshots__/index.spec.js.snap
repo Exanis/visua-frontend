@@ -75,6 +75,11 @@ ShallowWrapper {
                                         exact={true}
                                         path="/block"
                                 />
+                                <Connect(StaffRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/runner"
+                                />
                         </Switch>
                 </withRouter(Connect(WithStyles(Layout)))>
         </Connect(ConnectedRouter)>
@@ -146,6 +151,11 @@ ShallowWrapper {
                                         exact={true}
                                         path="/block"
                               />
+                              <Connect(StaffRouteComponent)
+                                        component={[Function]}
+                                        exact={true}
+                                        path="/runner"
+                              />
                     </Switch>
           </withRouter(Connect(WithStyles(Layout)))>
 </Connect(ConnectedRouter)>,
@@ -187,6 +197,11 @@ ShallowWrapper {
                                     component={[Function]}
                                     exact={true}
                                     path="/block"
+                        />
+                        <Connect(StaffRouteComponent)
+                                    component={[Function]}
+                                    exact={true}
+                                    path="/runner"
                         />
             </Switch>
 </withRouter(Connect(WithStyles(Layout)))>,
@@ -245,6 +260,11 @@ ShallowWrapper {
                             exact={true}
                             path="/block"
               />
+              <Connect(StaffRouteComponent)
+                            component={[Function]}
+                            exact={true}
+                            path="/runner"
+              />
 </Switch>,
           },
           "ref": null,
@@ -282,6 +302,11 @@ ShallowWrapper {
                   component={[Function]}
                   exact={true}
                   path="/block"
+/>,
+                <Connect(StaffRouteComponent)
+                  component={[Function]}
+                  exact={true}
+                  path="/runner"
 />,
               ],
             },
@@ -364,6 +389,19 @@ ShallowWrapper {
                 "rendered": null,
                 "type": [Function],
               },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "component": [Function],
+                  "exact": true,
+                  "path": "/runner",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
             ],
             "type": [Function],
           },
@@ -437,6 +475,11 @@ ShallowWrapper {
                                                   exact={true}
                                                   path="/block"
                                         />
+                                        <Connect(StaffRouteComponent)
+                                                  component={[Function]}
+                                                  exact={true}
+                                                  path="/runner"
+                                        />
                               </Switch>
                     </withRouter(Connect(WithStyles(Layout)))>
           </Connect(ConnectedRouter)>
@@ -508,6 +551,11 @@ ShallowWrapper {
                                                 exact={true}
                                                 path="/block"
                                     />
+                                    <Connect(StaffRouteComponent)
+                                                component={[Function]}
+                                                exact={true}
+                                                path="/runner"
+                                    />
                         </Switch>
             </withRouter(Connect(WithStyles(Layout)))>
 </Connect(ConnectedRouter)>,
@@ -549,6 +597,11 @@ ShallowWrapper {
                                           component={[Function]}
                                           exact={true}
                                           path="/block"
+                            />
+                            <Connect(StaffRouteComponent)
+                                          component={[Function]}
+                                          exact={true}
+                                          path="/runner"
                             />
               </Switch>
 </withRouter(Connect(WithStyles(Layout)))>,
@@ -607,6 +660,11 @@ ShallowWrapper {
                                 exact={true}
                                 path="/block"
                 />
+                <Connect(StaffRouteComponent)
+                                component={[Function]}
+                                exact={true}
+                                path="/runner"
+                />
 </Switch>,
             },
             "ref": null,
@@ -644,6 +702,11 @@ ShallowWrapper {
                     component={[Function]}
                     exact={true}
                     path="/block"
+/>,
+                  <Connect(StaffRouteComponent)
+                    component={[Function]}
+                    exact={true}
+                    path="/runner"
 />,
                 ],
               },
@@ -721,6 +784,19 @@ ShallowWrapper {
                     "component": [Function],
                     "exact": true,
                     "path": "/block",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "component": [Function],
+                    "exact": true,
+                    "path": "/runner",
                   },
                   "ref": null,
                   "rendered": null,
