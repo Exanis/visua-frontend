@@ -12,3 +12,16 @@ export function onRunnerList(runner) {
         runner: runner
     }
 }
+
+export function getRunnerToken() {
+    return {
+        type: 'runner.token'
+    }
+}
+
+export function onRunnerToken(token) {
+    return {
+        type: 'runner.onToken',
+        token: token
+    }
+}
