@@ -3,6 +3,7 @@ import userSaga from './user';
 import usersSaga from './users';
 import pipelineSaga from './pipeline';
 import blockSaga from './block';
+import runnerSaga from './runner';
 
 export default function* rootSaga() {
     yield all([
@@ -10,5 +11,6 @@ export default function* rootSaga() {
         usersSaga(),
         pipelineSaga(),
         blockSaga(),
+        runnerSaga(),
     ]);
 }

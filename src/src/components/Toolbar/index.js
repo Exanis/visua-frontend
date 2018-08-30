@@ -14,6 +14,7 @@ import List from '@material-ui/core/List';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
+import Motorcycle from '@material-ui/icons/Motorcycle';
 import MenuIcon from '@material-ui/icons/Menu';
 import Drawer from '@material-ui/core/Drawer';
 import ListItem from '@material-ui/core/ListItem';
@@ -39,6 +40,10 @@ const messages = defineMessages({
     block: {
         id: "toolbar.menu.block",
         defaultMessage: "Blocks"
+    },
+    runner: {
+        id: 'toolbar.menu.runner',
+        defaultMessage: 'Runners'
     },
     profile: {
         id: "toolbar.menu.profile",
@@ -156,6 +161,14 @@ export class VisuaToolbar extends React.Component {
                             <Extension />
                         </ListItemIcon>
                         <ListItemText primary={formatMessage(messages.block)}/>
+                    </ListItem>
+                </Link>
+                <Link to='/runner'>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <Motorcycle />
+                        </ListItemIcon>
+                        <ListItemText primary={formatMessage(messages.runner)}/>
                     </ListItem>
                 </Link>
             </List>

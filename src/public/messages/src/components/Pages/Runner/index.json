@@ -1,0 +1,10 @@
+[
+  {
+    "id": "runner.title",
+    "defaultMessage": "Runners"
+  },
+  {
+    "id": "runner.explain",
+    "defaultMessage": "To connect a runner, use this code as JOIN_TOKEN environment var"
+  }
+]

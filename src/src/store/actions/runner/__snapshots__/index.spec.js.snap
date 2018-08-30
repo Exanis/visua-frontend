@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Runner Actions getRunnerList 1`] = `
+Object {
+  "page": 1,
+  "search": "test",
+  "type": "runner.list",
+}
+`;
+
+exports[`Runner Actions onRunnerList 1`] = `
+Object {
+  "runner": Array [
+    "first",
+    "second",
+  ],
+  "type": "runner.onList",
+}
+`;
