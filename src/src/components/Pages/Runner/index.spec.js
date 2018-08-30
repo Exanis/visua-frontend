@@ -9,7 +9,7 @@ describe('<Runner />', () => {
         },
         classes: {},
         runnerActions: {
-
+            getRunnerToken: () => false
         },
         intl: {
             formatMessage: (message) => message.id

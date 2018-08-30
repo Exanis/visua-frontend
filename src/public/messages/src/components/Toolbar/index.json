@@ -16,6 +16,10 @@
     "defaultMessage": "Blocks"
   },
   {
+    "id": "toolbar.menu.runner",
+    "defaultMessage": "Runners"
+  },
+  {
     "id": "toolbar.menu.profile",
     "defaultMessage": "Profile"
   },
