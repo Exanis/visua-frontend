@@ -7,4 +7,19 @@ describe('Runner Actions', () => {
     it('onRunnerList', () => {
         expect(Actions.onRunnerList(['first', 'second'])).toMatchSnapshot();
     });
+    it('getRunnerToken', () => {
+        expect(Actions.getRunnerToken()).toMatchSnapshot();
+    });
+    it('onRunnerToken', () => {
+        expect(Actions.onRunnerToken('test')).toMatchSnapshot();
+    });
+    it('deleteRunner', () => {
+        expect(Actions.deleteRunner('test', 'page', 'search')).toMatchSnapshot();
+    });
+    it('onDeleteRunnerSuccess', () => {
+        expect(Actions.onDeleteRunnerSuccess()).toMatchSnapshot();
+    });
+    it('clearDeleteRunnerStatus', () => {
+        expect(Actions.clearDeleteRunnerStatus()).toMatchSnapshot();
+    });
 });

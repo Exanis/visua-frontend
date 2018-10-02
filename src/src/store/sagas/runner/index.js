@@ -5,6 +5,7 @@ import * as runnerAction from '../../actions/runner';
 export default function* watcherSaga() {
     yield takeLatest('runner.list', runnerListSaga);
     yield takeLatest('runner.token', runnerTokenSaga);
+    yield takeLatest('runner.delete', deleteRunnerSaga);
 }
 
 function fetchRunnerList(page, search) {
@@ -32,5 +33,19 @@ function* runnerTokenSaga() {
         yield put(runnerAction.onRunnerToken(response.data.token));
     } catch (_) {
 
+    }
+}
+
+function deleteRunner(runner) {
+    return axios.delete('/api/project/runner/' + runner + '/');
+}
+
+function* deleteRunnerSaga(action) {
+    try {
+        yield call(() => deleteRunner(action.runner));
+        yield put(runnerAction.onDeleteRunnerSuccess());
+        yield put(runnerAction.getRunnerList(action.page, action.search));
+    } catch (error) {
+        // This should never happen
     }
 }

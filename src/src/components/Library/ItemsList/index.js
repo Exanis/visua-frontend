@@ -52,7 +52,8 @@ export class ItemsListBase extends React.Component {
     };
 
     componentDidMount() {
-        this.refreshItemsList();
+        if (!this.props.loaded)
+            this.refreshItemsList();
     }
 
     onPageChange = (page) => {

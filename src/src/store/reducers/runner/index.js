@@ -2,7 +2,8 @@ const initialState = {
     runner: [],
     count: 0,
     loaded: false,
-    token: ''
+    token: '',
+    delete: false
 };
 
 export default function reducer(state = initialState, action) {
@@ -23,6 +24,16 @@ export default function reducer(state = initialState, action) {
             return {
                 ...state,
                 token: action.token
+            };
+        case 'runner.delete.success':
+            return {
+                ...state,
+                delete: true
+            };
+        case 'runner.delete.clear':
+            return {
+                ...state,
+                delete: false
             };
         default:
             return state;
